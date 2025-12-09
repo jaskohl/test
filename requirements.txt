@@ -1,0 +1,8 @@
+pytest
+pytest-playwright
+pytest-html
+pytest-xdist
+pytest-rerunfailures
+ntplib
+pysnmp
+structlog # need syslog-specific features
