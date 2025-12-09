@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-11-26T16:34:01.211286",
+  "forms": [
+    {
+      "index": 0,
+      "action": "login",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "password",
+          "name": "cfg_password",
+          "id": "cfg_password",
+          "value": "",
+          "placeholder": "Password",
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": null,
+          "id": null,
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": null,
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default btn-block"
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "redirect_url",
+          "id": null,
+          "value": "${next_url}",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        }
+      ]
+    }
+  ]
+}

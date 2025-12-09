@@ -1,0 +1,225 @@
+{
+  "html5_attributes": {
+    "signal1": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "time1": {
+      "tag": "INPUT",
+      "type": "radio",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "signal2": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "time2": {
+      "tag": "INPUT",
+      "type": "radio",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "signal3": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "time3": {
+      "tag": "INPUT",
+      "type": "radio",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "signal4": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "time4": {
+      "tag": "INPUT",
+      "type": "radio",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "signal5": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "time5": {
+      "tag": "INPUT",
+      "type": "radio",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "signal6": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "time6": {
+      "tag": "INPUT",
+      "type": "radio",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "button_cancel": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "button_save": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    }
+  },
+  "js_validators": {},
+  "error_messages": [],
+  "event_triggered_validation": {
+    "timestamp": "2025-11-26T19:08:41.776518",
+    "fields_tested": [],
+    "validation_events": [],
+    "summary": {
+      "total_fields_tested": 0,
+      "fields_with_validation": 0
+    }
+  },
+  "dynamic_validation_rules": {
+    "timestamp": "2025-11-26T19:08:55.005308",
+    "rule_changes": [],
+    "conditional_fields": [],
+    "summary": {
+      "total_rule_changes": 0,
+      "fields_affected": 0
+    }
+  },
+  "multi_step_form_analysis": {
+    "timestamp": "2025-11-26T19:13:55.822527",
+    "form_steps": [],
+    "navigation_elements": [],
+    "step_validation": [],
+    "step_indicators": [
+      {
+        "selector": ".collapse",
+        "count": 1,
+        "visible": 0
+      }
+    ],
+    "steps_analyzed": [],
+    "summary": {
+      "multi_step_detected": true,
+      "steps_navigated": 0,
+      "total_navigation_elements": 0
+    }
+  }
+}

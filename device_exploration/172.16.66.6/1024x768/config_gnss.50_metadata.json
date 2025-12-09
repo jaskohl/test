@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-11-26T19:42:45.733863",
+  "capture_index": 50,
+  "description": "GNSS configuration - Initial load",
+  "url": "https://172.16.66.6/gnss",
+  "title": "Kronos Series 3",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [
+      {
+        "text": "Cancel",
+        "disabled": false
+      },
+      {
+        "text": "Save",
+        "disabled": true
+      },
+      {
+        "text": "Cancel",
+        "disabled": false
+      },
+      {
+        "text": "Save",
+        "disabled": true
+      }
+    ],
+    "toast_messages": [
+      "Enabling or Disabling a constellation will cause an automatic restart of Kronos.",
+      "Select which constellations to use. Either GLONASS or BeiDou can be selected, not both.",
+      "Changing Antenna Delay will cause an automatic restart of Kronos.",
+      "Disabling Antenna Simulation will cause an automatic restart of Kronos.",
+      "Low Quality and Bad Time values are in milliseconds. Low Quality valid values are from 0.001 (1 microsecond) to 4000 (4 seconds)."
+    ]
+  }
+}

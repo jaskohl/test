@@ -1,0 +1,58 @@
+{
+  "device_info": {
+    "ip": "172.16.190.46",
+    "name": "Kronos2-190-46",
+    "series": 2,
+    "model": "Series 2",
+    "firmware_version": "04.04.00",
+    "hardware_model": "KRONOS-2P-HV-2",
+    "serial_number": "20216",
+    "location": "Lenexa"
+  },
+  "capabilities": {
+    "ptp_supported": false,
+    "network_interfaces": 1,
+    "interface_names": [
+      "eth0"
+    ],
+    "ptp_interfaces": [],
+    "max_outputs": 4,
+    "gnss_constellations": [
+      "GPS",
+      "Galileo",
+      "GLONASS",
+      "BeiDou"
+    ],
+    "authentication_levels": [
+      "status",
+      "configuration"
+    ],
+    "http_redirect": "https"
+  },
+  "network_config": {
+    "interfaces": [],
+    "ssl_certificate": {
+      "valid": null,
+      "issuer": null,
+      "expiration": null
+    }
+  },
+  "performance_baseline": {
+    "page_load_times": {},
+    "session_timeout_minutes": 30,
+    "max_concurrent_sessions": 5
+  },
+  "exploration_metadata": {
+    "capture_date": "2025-11-26T15:27:14.697442",
+    "explorer_version": "2.0",
+    "resolutions_captured": [
+      "667x375",
+      "1024x768"
+    ],
+    "test_coverage": "95%",
+    "known_issues": [
+      "HTTP to HTTPS redirect causes browser compatibility test failures"
+    ],
+    "last_updated": "2025-11-26T15:51:22.979611"
+  }
+}

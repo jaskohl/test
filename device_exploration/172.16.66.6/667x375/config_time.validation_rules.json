@@ -1,0 +1,251 @@
+{
+  "html5_attributes": {
+    "timezones": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "offset": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": true,
+      "pattern": "",
+      "minlength": 5,
+      "maxlength": 6,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "std_name": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": true,
+      "pattern": "",
+      "minlength": 3,
+      "maxlength": 4,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "dst_name": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": true,
+      "pattern": "",
+      "minlength": 3,
+      "maxlength": 4,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "button_cancel": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "button_save_1": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "dst_rule": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "dst_begin_w": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "dst_begin_d": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "dst_begin_m": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "dst_begin_t": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": true,
+      "pattern": "",
+      "minlength": 4,
+      "maxlength": 7,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "dst_end_w": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "dst_end_d": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "dst_end_m": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "dst_end_t": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": true,
+      "pattern": "",
+      "minlength": 4,
+      "maxlength": 7,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "button_save_2": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    }
+  },
+  "js_validators": {},
+  "error_messages": [],
+  "event_triggered_validation": {
+    "timestamp": "2025-11-26T19:04:22.574058",
+    "fields_tested": [],
+    "validation_events": [],
+    "summary": {
+      "total_fields_tested": 0,
+      "fields_with_validation": 0
+    }
+  },
+  "dynamic_validation_rules": {
+    "timestamp": "2025-11-26T19:04:35.892538",
+    "rule_changes": [],
+    "conditional_fields": [],
+    "summary": {
+      "total_rule_changes": 0,
+      "fields_affected": 0
+    }
+  },
+  "multi_step_form_analysis": {
+    "timestamp": "2025-11-26T19:07:07.722866",
+    "form_steps": [],
+    "navigation_elements": [],
+    "step_validation": [],
+    "step_indicators": [
+      {
+        "selector": ".collapse",
+        "count": 1,
+        "visible": 0
+      }
+    ],
+    "steps_analyzed": [],
+    "summary": {
+      "multi_step_detected": true,
+      "steps_navigated": 0,
+      "total_navigation_elements": 0
+    }
+  }
+}

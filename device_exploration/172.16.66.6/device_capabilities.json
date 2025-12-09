@@ -1,0 +1,82 @@
+{
+  "device_info": {
+    "ip": "172.16.66.6",
+    "name": "Kronos3-66-6",
+    "series": 3,
+    "model": "Series 3 (Limited Variant)",
+    "firmware_version": "02.06.04",
+    "hardware_model": "KRONOS-3R-HVXX-TCXO-44A",
+    "serial_number": "30113",
+    "location": ""
+  },
+  "capabilities": {
+    "ptp_supported": true,
+    "network_interfaces": 3,
+    "interface_names": [
+      "redundancy",
+      "ip",
+      "snmp",
+      "mtu",
+      "changeip",
+      "mask",
+      "ntp",
+      "vlan",
+      "ptp"
+    ],
+    "ptp_interfaces": [
+      "eth1",
+      "eth3"
+    ],
+    "max_outputs": 6,
+    "gnss_constellations": [
+      "GPS",
+      "Galileo",
+      "GLONASS",
+      "BeiDou"
+    ],
+    "authentication_levels": [
+      "status",
+      "configuration"
+    ],
+    "http_redirect": false
+  },
+  "network_config": {
+    "interfaces": [
+      "redundancy",
+      "ip",
+      "snmp",
+      "mtu",
+      "changeip",
+      "mask",
+      "ntp",
+      "vlan",
+      "ptp"
+    ],
+    "ssl_certificate": {
+      "valid": null,
+      "issuer": null,
+      "expiration": null
+    }
+  },
+  "performance_baseline": {
+    "page_load_times": {},
+    "session_timeout_minutes": 30,
+    "max_concurrent_sessions": 5
+  },
+  "exploration_metadata": {
+    "capture_date": "2025-11-26T18:44:53.721649",
+    "explorer_version": "2.0",
+    "resolutions_captured": [
+      "667x375",
+      "1024x768"
+    ],
+    "test_coverage": "95%",
+    "known_issues": [
+      "PTP panels collapsed by default",
+      "Multi-interface locator ambiguity",
+      "Missing eth2 and eth4 interfaces",
+      "12 additional test failures due to missing eth4"
+    ],
+    "last_updated": "2025-11-26T19:43:37.743357"
+  }
+}

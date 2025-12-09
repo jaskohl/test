@@ -1,0 +1,556 @@
+<!DOCTYPE html><html lang="en" class="light-color-theme"><head>
+    <meta charset="utf-8">
+    <title>Kronos Series 3</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preload" as="image" type="image/svg+xml" href="Kronos_Diamond.svg">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="loading_mask.js"></script>
+    <script>
+        
+            localStorage.setItem('is_cfg_session', 1);
+        
+    </script>
+</head>
+<body class="skin-blue sidebar-mini">
+    
+    <div class="wrapper">
+        <header id="Main_Header" class="main-header">
+            
+                <a href="#" class="sidebar-toggle hidden" data-toggle="push-menu" role="button" style="color: #666666; padding: 15px 18px;">
+                    <i class="glyphicon glyphicon-menu-hamburger"></i>
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <a href="/" class="logo text-left">
+                    <span class="logo-mini"><img src="Kronos_Diamond.svg" title="kronos3 Satellite Clock" class="none" width="26"></span>
+                    <span class="logo-lg"><img src="Kronos_Diamond.svg" title="kronos3 Satellite Clock" class="none" width="26"> Kronos Series 3</span>
+                </a>
+            
+            <nav class="navbar navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        
+                        <a href="/" class="navbar-brand mobile-only">
+                            <img src="Kronos_Diamond.svg" title="NovaTech" class="none" width="26">
+                            <span>Kronos Series 3</span>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="glyphicon glyphicon-menu-hamburger"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav mobile-only">
+                            
+                                <li>
+                                    <a href="/">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="general">General</a>
+                                </li>
+                                <li>
+                                    <a href="time">Time</a>
+                                </li>
+                                <li>
+                                    <a href="display">Display</a>
+                                </li>
+                                <li>
+                                    <a href="outputs">Outputs</a>
+                                </li>
+                                <li>
+                                    <a href="network">Network</a>
+                                </li>
+                                <li>
+                                    <a href="ptp">PTP</a>
+                                </li>
+                                <li>
+                                    <a href="snmp">SNMP</a>
+                                </li>
+                                <li>
+                                    <a href="gnss">GNSS</a>
+                                </li>
+                                <li>
+                                    <a href="syslog">Syslog</a>
+                                </li>
+                                <li>
+                                    <a href="upload">Upload</a>
+                                </li>
+                                <li>
+                                    <a href="access">Access</a>
+                                </li>
+                                <li>
+                                    <a href="log">Log Files</a>
+                                </li>
+                                <li>
+                                    <a href="legal">Legal Info</a>
+                                </li>
+                                <li>
+                                    <a href="contact">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="logout" title="Log out">Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-adjust"></span>
+                                </a>
+                                <ul class="dropdown-menu" style="z-index: 9999">
+                                    <li class="change-color-theme" data-color-theme="light-color-theme">
+                                        <span class=""></span><span> Light</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="dark-color-theme">
+                                        <span class=""></span><span> Dark</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="automatic">
+                                        <span class="glyphicon glyphicon-ok"></span><span> Automatic</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            
+                                <li class="non-mobile-only">
+                                    <a href="logout" title="Log out"><span class="glyphicon glyphicon-log-out"></span> Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <ul class="sidebar-menu push-menu-toggle" data-widget="tree">
+                        <li id="Open_Close_Sidebar"><a href="#" class="sidebar-toggle text-right" data-toggle="push-menu"><i class="glyphicon glyphicon-menu-hamburger text-left"></i></a></li>
+                    </ul>
+                    <ul class="sidebar-menu" data-widget="tree">
+                        <li class=""><a href="/" class="text-right"><span class="pull-left">Dashboard</span> <i class="glyphicon glyphicon-dashboard text-left"></i></a></li>
+                        <li class=""><a href="general" class="text-right"><span class="pull-left">General</span> <i class="glyphicon glyphicon-list-alt text-left"></i></a></li>
+                        <li class=""><a href="time" class="text-right"><span class="pull-left">Time</span> <i class="glyphicon glyphicon-time text-left"></i></a></li>
+                        <li class=""><a href="display" class="text-right"><span class="pull-left">Display</span> <i class="glyphicon glyphicon-picture text-left"></i></a></li>
+                        <li class=""><a href="outputs" class="text-right"><span class="pull-left">Outputs</span> <i class="glyphicon glyphicon-share text-left"></i></a></li>
+                        <li class="active"><a href="network" class="text-right"><span class="pull-left">Network</span> <i class="glyphicon glyphicon-globe text-left"></i></a></li>
+                        <li class=""><a href="ptp" class="text-right"><span class="pull-left">PTP</span> <i class="glyphicon glyphicon-resize-horizontal text-left"></i></a></li>
+                        <li class=""><a href="snmp" class="text-right"><span class="pull-left">SNMP</span> <i class="glyphicon glyphicon-object-align-vertical text-left"></i></a></li>
+                        <li class=""><a href="gnss" class="text-right"><span class="pull-left">GNSS</span> <i class="glyphicon glyphicon-star-empty text-left"></i></a></li>
+                        <li class=""><a href="syslog" class="text-right"><span class="pull-left">Syslog</span> <i class="glyphicon glyphicon-align-left text-left"></i></a></li>
+                        <li class=""><a href="upload" class="text-right"><span class="pull-left">Upload</span> <i class="glyphicon glyphicon-upload text-left"></i></a></li>
+                        <li class=""><a href="access" class="text-right"><span class="pull-left">Access</span> <i class="glyphicon glyphicon-user text-left"></i></a></li>
+                        <li class=""><a href="log" class="text-right"><span class="pull-left">Log Files (zip)</span> <i class="glyphicon glyphicon-download-alt text-left"></i></a></li>
+                        <li class=""><a href="legal" class="text-right"><span class="pull-left">Legal Info (pdf)</span> <i class="glyphicon glyphicon-info-sign text-left"></i></a></li>
+                        <li class=""><a href="contact" class="text-right"><span class="pull-left">Contact</span> <i class="glyphicon glyphicon-envelope text-left"></i></a></li>
+                    </ul>
+                </section>
+            </aside>
+        
+        <div class="content-wrapper">
+            <div class="container">
+<div class="row">
+  
+<style>
+  .panel-group .panel {
+    border-radius: 0px;
+  }
+  .dark-color-theme .panel-group .panel {
+    background-color: #595959;
+  }
+  .panel-group .panel + .panel {
+    margin-top: 0px;
+  }
+  .panel {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    box-shadow: none !important;
+  }
+  .panel-heading {
+    padding: 5px 10px;
+  }
+  .panel-heading a {
+    color: #333333;
+    font-size: 18px;
+  }
+  .dark-color-theme .panel-heading a {
+    color: #cccccc;
+  }
+  .panel-heading a:after {
+    position: relative;
+    top: 2px;
+    right: 5px;
+    font-size: 14px;
+  }
+  .network_panel_header{
+    height: 40px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  ul#sfp_mode {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  ul#sfp_mode li label {
+    font-weight: 500;
+  }
+</style>
+<section class="content-header clearfix">
+  <ol class="breadcrumb">
+      <li><a href="/"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</a></li>
+      <li><i class="glyphicon glyphicon-globe"></i> Network</li>
+  </ol>
+</section>
+<section class="content">
+  <div class="box">
+    <div class="box-header with-border">
+      <h3 class="box-title">Network</h3>
+    </div>
+    <div class="box-body no-padding">
+      <div class="panel-group mb-0" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default" id="gateway_panel">
+          <div class="panel-heading gateway_panel_header" role="tab" id="gateway_heading">
+            <a role="button" id="" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#gateway_collapse" aria-expanded="false" aria-controls="gateway_collapse">
+              <span>Gateway</span>
+            </a>
+          </div>
+          <div id="gateway_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="gateway_heading">
+            <div class="panel-body">
+              <form id="" action="network" method="POST">
+                
+                <div id="gateway_group" class="form-group">
+                  <label class="labels" for="gateway">Default Gateway:</label>
+                    <input class="form-control" id="gateway" name="gateway" onchange="changed('button_save_gateway')" type="text" value="172.16.0.1" style="">
+                    
+                </div>
+                <div class="p-10 text-right" style="border-top: 1px solid #cccccc;">
+                  <button type="button" id="button_cancel_gateway" class="btn btn-default" onclick="my_cancel()">Cancel</button>
+                  <button type="submit" id="button_save_gateway" name="gateway_save_btn" class="btn btn-primary" disabled="">Save</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default" id="sfp_mode_panel">
+          <div class="panel-heading port_sfp_mode_panel_header" role="tab" id="sfp_mode_heading">
+              <a role="button" id="" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#sfp_mode_collapse" aria-expanded="false" aria-controls="sfp_mode_collapse">
+                <span>SFP Mode</span>
+              </a>
+          </div>
+          <div id="sfp_mode_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sfp_mode_heading">
+            <div class="panel-body">
+              <div class="alert alert-warning alert-warning-soft alert-left-border">
+                <p>Changing the SFP Mode will require restarting Kronos.</p>
+              </div>
+              <form id="SFP_Mode_Form" action="network" method="POST">
+                <div>
+                  
+                  <div id="sfp_mode_group" class="form-group">
+                    <label class="labels" for="sfp_mode">SFP Mode: </label>
+                    <ul class="" id="sfp_mode" onchange="changed('button_save_sfp_mode')"><li><input id="sfp_mode-0" name="sfp_mode" type="radio" value="A" style=""> <label for="sfp_mode-0">Mode A – Standalone</label></li><li><input id="sfp_mode-1" name="sfp_mode" type="radio" value="B" style=""> <label for="sfp_mode-1">Mode B - Single Redundant Application</label></li><li><input checked="" id="sfp_mode-2" name="sfp_mode" type="radio" value="C" style=""> <label for="sfp_mode-2">Mode C - Dual Redundant Applications</label></li></ul>
+                    
+                  </div>
+                </div>
+                <div class="p-10 text-right" style="border-top: 1px solid #cccccc;">
+                  <button type="button" id="button_cancel_sfp_mode" class="btn btn-default" onclick="my_cancel()">Cancel</button>
+                  <button type="submit" id="button_save_sfp_mode" name="sfp_mode_btn" class="btn btn-primary" disabled="">Save</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+          <div class="panel panel-default" id="port_eth0_panel">
+            <div class="panel-heading port_eth0_panel_header" role="tab" id="port_eth0_heading">
+                <a role="button" id="" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#port_eth0_collapse" aria-expanded="false" aria-controls="port_eth0_collapse">
+                  <span>eth0</span>
+                </a>
+            </div>
+            <div id="port_eth0_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="port_eth0_heading">
+              <div class="panel-body">
+                <form action="network" method="POST">
+                  <div>
+                    
+                    <div id="ip_eth0_group" class="form-group">
+                      <label class="labels" for="ip_eth0">IP Address:</label>
+                      <input class="form-control" id="ip_eth0" name="ip_eth0" onchange="changed('button_save_port_eth0')" type="text" value="172.16.190.47" style="">
+                      
+                    </div>
+                    <div id="mask_eth0_group" class="form-group">
+                      <label class="labels" for="mask_eth0">Netmask:</label>
+                      <input class="form-control" id="mask_eth0" name="mask_eth0" onchange="changed('button_save_port_eth0')" type="text" value="255.255.0.0" style="">
+                      
+                    </div>
+                    <div id="mtu_eth0_group" class="form-group">
+                      <label class="labels" for="mtu_eth0">MTU:</label>
+                      <input class="form-control" id="mtu_eth0" name="mtu_eth0" onchange="changed('button_save_port_eth0')" type="number" value="1500" style="">
+                      
+                    </div>
+                    <div id="ntp_enable_eth0_group" class="form-group">
+                      <label class="labels" for="ntp_enable_eth0">NTP Enable:</label>
+                      <input checked="" class="" id="ntp_enable_eth0" name="ntp_enable_eth0" onchange="changed('button_save_port_eth0')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="snmp_enable_eth0_group" class="form-group">
+                      <label class="labels" for="snmp_enable_eth0">SNMP Enable:</label>
+                      <input checked="" class="" id="snmp_enable_eth0" name="snmp_enable_eth0" onchange="changed('button_save_port_eth0')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="vlan_enable_eth0_group" class="form-group">
+                      <label class="labels" for="vlan_enable_eth0">VLAN Enable:</label>
+                      <input class="" id="vlan_enable_eth0" name="vlan_enable_eth0" onchange="changed('button_save_port_eth0')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="vlan_id_eth0_group" class="form-group">
+                      <label class="labels" for="vlan_id_eth0">VLAN ID:</label>
+                      <input class="form-control" id="vlan_id_eth0" name="vlan_id_eth0" onchange="changed('button_save_port_eth0')" type="text" value="" style="">
+                      
+                    </div>
+                    <div id="vlan_priority_eth0_group" class="form-group">
+                      <label class="labels" for="vlan_priority_eth0">VLAN Priority:</label>
+                      <input class="form-control" id="vlan_priority_eth0" name="vlan_priority_eth0" onchange="changed('button_save_port_eth0')" type="text" value="" style="">
+                      
+                    </div>
+                    <div class="form-group">
+                      <input checked="" class="" id="changeip_eth0" name="changeip_eth0" onchange="changed('button_save_port_eth0')" type="checkbox" value="y" style="">
+                      <label class="labels" for="changeip_eth0">Allow to change the IP address of this port using the rotary knob on the front panel</label>
+                      
+                    </div>
+                  </div>
+                  <div class="p-10 text-right" style="border-top: 1px solid #cccccc;">
+                    <button type="button" id="button_cancel_port_eth0" class="btn btn-default" onclick="my_cancel()">Cancel</button>
+                    <button type="submit" id="button_save_port_eth0" name="port_eth0" class="btn btn-primary" onclick="my_submit(this.form)" disabled="">Save</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default" id="port_eth1_panel">
+            <div class="panel-heading port_eth1_panel_header" role="tab" id="port_eth1_heading">
+                <a role="button" id="" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#port_eth1_collapse" aria-expanded="false" aria-controls="port_eth1_collapse">
+                  <span>eth1/eth2</span>
+                </a>
+            </div>
+            <div id="port_eth1_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="port_eth1_heading">
+              <div class="panel-body">
+                <form action="network" method="POST">
+                  <div>
+                    
+                    <div class="form-group">
+                      <label class="labels" for="ip_eth1">IP Address:</label>
+                      <input class="form-control" id="ip_eth1" name="ip_eth1" onchange="changed('button_save_port_eth1')" type="text" value="" style="">
+                      
+                    </div>
+                    <div class="form-group">
+                      <label class="labels" for="mask_eth1">Netmask:</label>
+                      <input class="form-control" id="mask_eth1" name="mask_eth1" onchange="changed('button_save_port_eth1')" type="text" value="" style="">
+                      
+                    </div>
+                    <div id="mtu_eth1_group" class="form-group">
+                      <label class="labels" for="mtu_eth1">MTU:</label>
+                      <input class="form-control" id="mtu_eth1" name="mtu_eth1" onchange="changed('button_save_port_eth1')" type="number" value="1494" style="">
+                      
+                    </div>
+                    <div id="redundancy_mode_eth1_group" class="form-group">
+                      <label class="labels" for="redundancy_mode_eth1">Redundancy Mode:</label>
+                      <select class="form-control" id="redundancy_mode_eth1" name="redundancy_mode_eth1" onchange="changed('button_save_port_eth1')"><option value="HSR">HSR</option><option selected="" value="PRP">PRP</option></select>
+                      
+                    </div>
+                    <div id="ntp_enable_eth1_group" class="form-group">
+                      <label class="labels" for="ntp_enable_eth1">NTP Enable:</label>
+                      <input checked="" class="" id="ntp_enable_eth1" name="ntp_enable_eth1" onchange="changed('button_save_port_eth1')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="ptp_enable_eth1_group" class="form-group">
+                      <label class="labels" for="ptp_enable_eth1">PTP Enable:</label>
+                      <input checked="" class="" id="ptp_enable_eth1" name="ptp_enable_eth1" onchange="changed('button_save_port_eth1')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="snmp_enable_eth1_group" class="form-group">
+                      <label class="labels" for="snmp_enable_eth1">SNMP Enable:</label>
+                      <input class="" id="snmp_enable_eth1" name="snmp_enable_eth1" onchange="changed('button_save_port_eth1')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="vlan_enable_eth1_group" class="form-group">
+                      <label class="labels" for="vlan_enable_eth1">VLAN Enable:</label>
+                      <input class="" id="vlan_enable_eth1" name="vlan_enable_eth1" onchange="changed('button_save_port_eth1')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="vlan_id_eth1_group" class="form-group">
+                      <label class="labels" for="vlan_id_eth1">VLAN ID:</label>
+                      <input class="form-control" id="vlan_id_eth1" name="vlan_id_eth1" onchange="changed('button_save_port_eth1')" type="text" value="" style="">
+                      
+                    </div>
+                    <div id="vlan_priority_eth1_group" class="form-group">
+                      <label class="labels" for="vlan_priority_eth1">VLAN Priority:</label>
+                      <input class="form-control" id="vlan_priority_eth1" name="vlan_priority_eth1" onchange="changed('button_save_port_eth1')" type="text" value="" style="">
+                      
+                    </div>
+                  </div>
+                  <div class="p-10 text-right" style="border-top: 1px solid #cccccc;">
+                    <button type="button" id="button_cancel_port_eth1" class="btn btn-default" onclick="my_cancel()">Cancel</button>
+                    <button type="submit" id="button_save_port_eth1" name="port_eth1" class="btn btn-primary" onclick="my_submit(this.form)" disabled="">Save</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default" id="port_eth3_panel">
+            <div class="panel-heading port_d_panel_header" role="tab" id="port_eth3_heading">
+                <a role="button" id="" class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#port_eth3_collapse" aria-expanded="false" aria-controls="port_eth3_collapse">
+                  <span>eth3/eth4</span>
+                </a>
+            </div>
+            <div id="port_eth3_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="port_eth3_heading">
+              <div class="panel-body">
+                <form action="network" method="POST">
+                  <div>
+                    
+                    <div class="form-group">
+                      <label class="labels" for="ip_eth3">IP Address:</label>
+                      <input class="form-control" id="ip_eth3" name="ip_eth3" onchange="changed('button_save_port_eth3')" type="text" value="" style="">
+                      
+                    </div>
+                    <div class="form-group">
+                      <label class="labels" for="mask_eth3">Netmask:</label>
+                      <input class="form-control" id="mask_eth3" name="mask_eth3" onchange="changed('button_save_port_eth3')" type="text" value="" style="">
+                      
+                    </div>
+                    <div id="mtu_eth3_group" class="form-group">
+                      <label class="labels" for="mtu_eth3">MTU:</label>
+                      <input class="form-control" id="mtu_eth3" name="mtu_eth3" onchange="changed('button_save_port_eth3')" type="number" value="1494" style="">
+                      
+                    </div>
+                    <div id="redundancy_mode_eth3_group" class="form-group">
+                      <label class="labels" for="redundancy_mode_eth3">Redundancy Mode:</label>
+                      <select class="form-control" id="redundancy_mode_eth3" name="redundancy_mode_eth3" onchange="changed('button_save_port_eth3')"><option value="HSR">HSR</option><option selected="" value="PRP">PRP</option></select>
+                      
+                    </div>
+                    <div id="ntp_enable_eth3_group" class="form-group">
+                      <label class="labels" for="ntp_enable_eth3">NTP Enable:</label>
+                      <input class="" id="ntp_enable_eth3" name="ntp_enable_eth3" onchange="changed('button_save_port_eth3')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="ptp_enable_eth3_group" class="form-group">
+                      <label class="labels" for="ptp_enable_eth3">PTP Enable:</label>
+                      <input checked="" class="" id="ptp_enable_eth3" name="ptp_enable_eth3" onchange="changed('button_save_port_eth3')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="snmp_enable_eth3_group" class="form-group">
+                      <label class="labels" for="snmp_enable_eth3">SNMP Enable:</label>
+                      <input class="" id="snmp_enable_eth3" name="snmp_enable_eth3" onchange="changed('button_save_port_eth3')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="vlan_enable_eth3_group" class="form-group">
+                      <label class="labels" for="vlan_enable_eth3">VLAN Enable:</label>
+                      <input class="" id="vlan_enable_eth3" name="vlan_enable_eth3" onchange="changed('button_save_port_eth3')" type="checkbox" value="y" style="">
+                      
+                    </div>
+                    <div id="vlan_id_eth3_group" class="form-group">
+                      <label class="labels" for="vlan_id_eth3">VLAN ID:</label>
+                      <input class="form-control" id="vlan_id_eth3" name="vlan_id_eth3" onchange="changed('button_save_port_eth3')" type="text" value="" style="">
+                      
+                    </div>
+                    <div id="vlan_priority_eth3_group" class="form-group">
+                      <label class="labels" for="vlan_priority_eth3">VLAN Priority:</label>
+                      <input class="form-control" id="vlan_priority_eth3" name="vlan_priority_eth3" onchange="changed('button_save_port_eth3')" type="text" value="" style="">
+                      
+                    </div>
+                  </div>
+                  <div class="p-10 text-right" style="border-top: 1px solid #cccccc;">
+                    <button type="button" id="button_cancel_port_eth3" class="btn btn-default" onclick="my_cancel()">Cancel</button>
+                    <button type="submit" id="button_save_port_eth3" name="port_eth3" class="btn btn-primary" onclick="my_submit(this.form)" disabled="">Save</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<div class="modal fade" id="SFP_Mode_Modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" id="Modal_Dialog_Close_Btn" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="modal-title">Change SFP Mode</h4>
+      </div>
+      <div class="modal-body">
+        <p>Are you sure you want to change the SFP Mode?</p>
+        <p>A restart is required. Upon clicking Change Mode Kronos will restart automatically.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="cancel_modal_btn" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <input type="submit" id="change_mode_modal_btn" name="change_mode_btn" class="btn btn-primary" value="Change Mode" style="">
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function(event) {
+    const saveSFPMode = document.getElementById('button_save_sfp_mode');
+    saveSFPMode.addEventListener('click', function (event) {
+      event.preventDefault();
+      $('#SFP_Mode_Modal').modal({
+        backdrop: 'static',
+        keyboard: false
+      });
+    });
+
+    const changeModeBtn = document.getElementById('change_mode_modal_btn');
+    changeModeBtn.addEventListener('click', function (event) {
+      const sfpModeForm = document.getElementById('SFP_Mode_Form');
+      sfpModeForm.submit();
+    });
+  });
+</script>
+
+
+</div>
+            </div>
+        </div>
+        <script>
+            function scrollToTop() {
+                const topEl = document.getElementById('Main_Header');
+                topEl.scrollIntoView();
+            }
+        </script>
+        <footer class="main-footer inherit">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <span class="copyright">Copyright © 2022-2025 NovaTech LLC. All rights reserved.</span>
+                    <div class="pull-right hidden-xs">
+                        <b><a href="#" onclick="scrollToTop()"><span class="glyphicon glyphicon-chevron-up"></span> Top</a></b>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="modal-user-session-expire" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <p class="text-center text-bold">Your user session has expired. Please reload the page.</p>
+                </div>
+                <div class="modal-footer">
+                    <form action="/Users/Delete" method="POST">
+                        <button type="button" id="modal-user-session-expire-reload" class="btn btn-primary btn-block" onclick="window.location.reload()">Reload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script text="text/javascript" src="bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+</body></html>

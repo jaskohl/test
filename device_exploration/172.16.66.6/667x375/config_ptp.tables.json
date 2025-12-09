@@ -1,0 +1,198 @@
+[
+  {
+    "index": 0,
+    "headers": [],
+    "rows": [
+      [
+        "Domain Number:",
+        "Domain attribute to use."
+      ],
+      [
+        "Priority 1:",
+        "Priority1 attribute to use."
+      ],
+      [
+        "Priority 2:",
+        "Priority2 attribute to use."
+      ],
+      [
+        "Announce Interval:",
+        "Time between Announce messages (seconds, power of 2)."
+      ],
+      [
+        "Sync Interval:",
+        "Time between Sync messages (seconds, power of 2)."
+      ],
+      [
+        "Min. Delay Request Interval:",
+        "Time between Delay_req messages (seconds, power of 2)."
+      ],
+      [
+        "Min. Peer Delay Request Interval:",
+        "Time between Pdelay_req messages (seconds, power of 2)."
+      ],
+      [
+        "Announce Receipt Timeout:",
+        "Number of missed Announce messages before expiration."
+      ],
+      [
+        "Delay Mechanism:",
+        "P2P\nE2E\nPath delay mechanism to use."
+      ],
+      [
+        "Hybrid E2E:",
+        "Reply to unicast delay requests using unicast delay responses (only used in E2E)."
+      ],
+      [
+        "Network Transport:",
+        "L2\nUDPv4\nUse level 2 or 3 network transport."
+      ],
+      [
+        "UDP TTL:",
+        "TTL (time to live) value for IPv4 multicast messages (1 = restrict to local subnet)."
+      ],
+      [
+        "Inhibit Multicast Service:",
+        "Disable all multicast messages."
+      ],
+      [
+        "Unicast Listen:",
+        "Grant unicast messages contract."
+      ],
+      [
+        "Unicast Required Duration:",
+        "Service time (seconds) requested/granted during unicast discovery."
+      ],
+      [
+        "Dataset Comparison:",
+        "ieee1588G.8275.x\n                                \n                                Method to use when comparing dataset during BMCA execution."
+      ],
+      [
+        "G.8275 Default DS Local Priority:",
+        "Only used if dataset_comparison = G.8275.x."
+      ],
+      [
+        "G.8275 Port DS Local Priority:",
+        "Only used if dataset_comparison = G.8275.x."
+      ],
+      [
+        "Power Profile TLV Enabled:",
+        "Enable TLV fields in power profile."
+      ],
+      [
+        "Grandmaster ID:",
+        "Set the grandmaster ID field within IEEE C37.238 TLV."
+      ],
+      [
+        "Transport Specific:",
+        "The transport specific field."
+      ],
+      [
+        "PTP DST MAC:",
+        "MAC address to which PTP messages are sent (only used with UDPv4 transport)."
+      ],
+      [
+        "P2P DST MAC:",
+        "MAC address to which peer delay messages are sent (only used with UDPv4 transport)."
+      ]
+    ]
+  },
+  {
+    "index": 1,
+    "headers": [],
+    "rows": [
+      [
+        "Domain Number:",
+        "Domain attribute to use."
+      ],
+      [
+        "Priority 1:",
+        "Priority1 attribute to use."
+      ],
+      [
+        "Priority 2:",
+        "Priority2 attribute to use."
+      ],
+      [
+        "Announce Interval:",
+        "Time between Announce messages (seconds, power of 2)."
+      ],
+      [
+        "Sync Interval:",
+        "Time between Sync messages (seconds, power of 2)."
+      ],
+      [
+        "Min. Delay Request Interval:",
+        "Time between Delay_req messages (seconds, power of 2)."
+      ],
+      [
+        "Min. Peer Delay Request Interval:",
+        "Time between Pdelay_req messages (seconds, power of 2)."
+      ],
+      [
+        "Announce Receipt Timeout:",
+        "Number of missed Announce messages before expiration."
+      ],
+      [
+        "Delay Mechanism:",
+        "P2P\nE2E\nPath delay mechanism to use."
+      ],
+      [
+        "Hybrid E2E:",
+        "Reply to unicast delay requests using unicast delay responses (only used in E2E)."
+      ],
+      [
+        "Network Transport:",
+        "L2\nUDPv4\nUse level 2 or 3 network transport."
+      ],
+      [
+        "UDP TTL:",
+        "TTL (time to live) value for IPv4 multicast messages (1 = restrict to local subnet)."
+      ],
+      [
+        "Inhibit Multicast Service:",
+        "Disable all multicast messages."
+      ],
+      [
+        "Unicast Listen:",
+        "Grant unicast messages contract."
+      ],
+      [
+        "Unicast Required Duration:",
+        "Service time (seconds) requested/granted during unicast discovery."
+      ],
+      [
+        "Dataset Comparison:",
+        "ieee1588G.8275.x\n                                \n                                Method to use when comparing dataset during BMCA execution."
+      ],
+      [
+        "G.8275 Default DS Local Priority:",
+        "Only used if dataset_comparison = G.8275.x."
+      ],
+      [
+        "G.8275 Port DS Local Priority:",
+        "Only used if dataset_comparison = G.8275.x."
+      ],
+      [
+        "Power Profile TLV Enabled:",
+        "Enable TLV fields in power profile."
+      ],
+      [
+        "Grandmaster ID:",
+        "Set the grandmaster ID field within IEEE C37.238 TLV."
+      ],
+      [
+        "Transport Specific:",
+        "The transport specific field."
+      ],
+      [
+        "PTP DST MAC:",
+        "MAC address to which PTP messages are sent (only used with UDPv4 transport)."
+      ],
+      [
+        "P2P DST MAC:",
+        "MAC address to which peer delay messages are sent (only used with UDPv4 transport)."
+      ]
+    ]
+  }
+]

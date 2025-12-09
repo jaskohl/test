@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-11-26T19:16:08.118927",
+  "capture_index": 63,
+  "description": "Page content changed",
+  "url": "https://172.16.66.6/syslog",
+  "title": "Kronos Series 3",
+  "viewport": {
+    "width": 667,
+    "height": 375
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [],
+    "toast_messages": [
+      "Leave Target A and Target B empty to disable remote syslog."
+    ]
+  }
+}

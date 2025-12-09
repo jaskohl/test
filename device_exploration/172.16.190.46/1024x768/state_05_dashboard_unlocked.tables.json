@@ -1,0 +1,147 @@
+[
+  {
+    "index": 0,
+    "headers": [],
+    "rows": [
+      [
+        "UTC",
+        "2024-10-05 01:46:32"
+      ],
+      [
+        "MDT",
+        "2024-10-04 19:46:32 -06:00"
+      ]
+    ]
+  },
+  {
+    "index": 1,
+    "headers": [],
+    "rows": [
+      [
+        "GNSS state",
+        "LOCKED"
+      ],
+      [
+        "Antenna state",
+        "Ok"
+      ],
+      [
+        "Time accuracy",
+        "18 ns"
+      ],
+      [
+        "Used / tracked SVs",
+        "2 / 8"
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "headers": [],
+    "rows": [
+      [
+        "Identifier",
+        ""
+      ],
+      [
+        "Location",
+        "Lenexa"
+      ],
+      [
+        "Contact",
+        "Novatech Testing"
+      ],
+      [
+        "Model number",
+        "KRONOS-2P-HV-2"
+      ],
+      [
+        "Serial number",
+        "20216"
+      ],
+      [
+        "Firmware version",
+        "04.04.00"
+      ],
+      [
+        "IPv4 address A",
+        "172.16.190.46"
+      ],
+      [
+        "MAC address A",
+        "00:14:2d:f0:25:a4"
+      ],
+      [
+        "Up Time",
+        "0004.01:47:06"
+      ],
+      [
+        "SNMP MIB file",
+        "kronos2.mib"
+      ],
+      [
+        "NTP clients",
+        "10 min 60 min"
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "headers": [
+      "Id",
+      "C/No",
+      "Constellation",
+      "State"
+    ],
+    "rows": [
+      [
+        "1",
+        "8",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "3",
+        "14",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "5",
+        "19",
+        "GPS",
+        "in use"
+      ],
+      [
+        "7",
+        "8",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "9",
+        "31",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "11",
+        "7",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "13",
+        "36",
+        "GPS",
+        "in use"
+      ],
+      [
+        "15",
+        "7",
+        "GPS",
+        "tracked"
+      ]
+    ]
+  }
+]

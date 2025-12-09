@@ -1,0 +1,905 @@
+{
+  "timestamp": "2025-11-26T16:34:47.507078",
+  "forms": [
+    {
+      "index": 0,
+      "action": "ptp",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "profile",
+          "id": "eth1_profile",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "IEEE C37.238-2011 (Power Profile)",
+              "text": "IEEE C37.238-2011 (Power Profile)",
+              "selected": false
+            },
+            {
+              "value": "IEEE C37.238-2017 (Power Profile)",
+              "text": "IEEE C37.238-2017 (Power Profile)",
+              "selected": false
+            },
+            {
+              "value": "IEEC 61850-9-3:2016 (Utility Profile)",
+              "text": "IEEC 61850-9-3:2016 (Utility Profile)",
+              "selected": true
+            },
+            {
+              "value": "Default Profile (UDPv4)",
+              "text": "Default Profile (UDPv4)",
+              "selected": false
+            },
+            {
+              "value": "Default Profile (802.3)",
+              "text": "Default Profile (802.3)",
+              "selected": false
+            },
+            {
+              "value": "Telecom G.8265.1 (frequency synchronization)",
+              "text": "Telecom G.8265.1 (frequency synchronization)",
+              "selected": false
+            },
+            {
+              "value": "Telecom G.8275.1 (phase/time synchronization with full timing support from the network)",
+              "text": "Telecom G.8275.1 (phase/time synchronization with full timing support from the network)",
+              "selected": false
+            },
+            {
+              "value": "Telecom G.8275.2 (time/phase synchronization with partial timing support from the network)",
+              "text": "Telecom G.8275.2 (time/phase synchronization with partial timing support from the network)",
+              "selected": false
+            },
+            {
+              "value": "Custom",
+              "text": "Custom",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "domain_number_eth1",
+          "id": "domain_number_eth1",
+          "value": "52",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "priority_1_eth1",
+          "id": "priority_1_eth1",
+          "value": "102",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "priority_2_eth1",
+          "id": "priority_2_eth1",
+          "value": "202",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "log_announce_interval_eth1",
+          "id": "log_announce_interval_eth1",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "log_sync_interval_eth1",
+          "id": "log_sync_interval_eth1",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "log_min_delay_req_interval_eth1",
+          "id": "log_min_delay_req_interval_eth1",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "log_min_p_delay_req_interval_eth1",
+          "id": "log_min_p_delay_req_interval_eth1",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "announce_receipt_timeout_eth1",
+          "id": "announce_receipt_timeout_eth1",
+          "value": "3",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "delay_mechanism_eth1",
+          "id": "delay_mechanism_eth1_hidden",
+          "value": "P2P",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "delay_mechanism_eth1",
+          "id": "delay_mechanism_eth1",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b",
+          "options": [
+            {
+              "value": "P2P",
+              "text": "P2P",
+              "selected": true
+            },
+            {
+              "value": "E2E",
+              "text": "E2E",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "hybrid_e2e_eth1",
+          "id": "hybrid_e2e_eth1",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "network_transport_eth1",
+          "id": "network_transport_eth1_hidden",
+          "value": "L2",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "network_transport_eth1",
+          "id": "network_transport_eth1",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b",
+          "options": [
+            {
+              "value": "L2",
+              "text": "L2",
+              "selected": true
+            },
+            {
+              "value": "UDPv4",
+              "text": "UDPv4",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "udp_ttl_eth1",
+          "id": "udp_ttl_eth1",
+          "value": "1",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "inhibit_multicast_service_eth1",
+          "id": "inhibit_multicast_service_eth1",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "unicast_listen_eth1",
+          "id": "unicast_listen_eth1",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "unicast_req_duration_eth1",
+          "id": "unicast_req_duration_eth1",
+          "value": "3600",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "dataset_comparison_eth1",
+          "id": "dataset_comparison_eth1_hidden",
+          "value": "ieee1588",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dataset_comparison_eth1",
+          "id": "dataset_comparison_eth1",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b",
+          "options": [
+            {
+              "value": "",
+              "text": "",
+              "selected": false
+            },
+            {
+              "value": "ieee1588",
+              "text": "ieee1588",
+              "selected": true
+            },
+            {
+              "value": "G.8275.x",
+              "text": "G.8275.x",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "g_8275_default_ds_local_priority_eth1",
+          "id": "g_8275_default_ds_local_priority_eth1",
+          "value": "128",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "g_8275_port_ds_local_priority_eth1",
+          "id": "g_8275_port_ds_local_priority_eth1",
+          "value": "128",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "power_profile_tlv_enabled_eth1",
+          "id": "power_profile_tlv_enabled_eth1",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "grandmaster_id_eth1",
+          "id": "grandmaster_id_eth1",
+          "value": "3",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "transport_specific_eth1",
+          "id": "transport_specific_eth1",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ptp_dst_mac_eth1",
+          "id": "ptp_dst_mac_eth1",
+          "value": "01:1B:19:00:00:00",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "p2p_dst_mac_eth1",
+          "id": "p2p_dst_mac_eth1",
+          "value": "01:80:C2:00:00:0E",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_eth1",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "eth1",
+          "id": "button_save_eth1",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "ptp",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "profile",
+          "id": "eth3_profile",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "IEEE C37.238-2011 (Power Profile)",
+              "text": "IEEE C37.238-2011 (Power Profile)",
+              "selected": true
+            },
+            {
+              "value": "IEEE C37.238-2017 (Power Profile)",
+              "text": "IEEE C37.238-2017 (Power Profile)",
+              "selected": false
+            },
+            {
+              "value": "IEEC 61850-9-3:2016 (Utility Profile)",
+              "text": "IEEC 61850-9-3:2016 (Utility Profile)",
+              "selected": false
+            },
+            {
+              "value": "Default Profile (UDPv4)",
+              "text": "Default Profile (UDPv4)",
+              "selected": false
+            },
+            {
+              "value": "Default Profile (802.3)",
+              "text": "Default Profile (802.3)",
+              "selected": false
+            },
+            {
+              "value": "Telecom G.8265.1 (frequency synchronization)",
+              "text": "Telecom G.8265.1 (frequency synchronization)",
+              "selected": false
+            },
+            {
+              "value": "Telecom G.8275.1 (phase/time synchronization with full timing support from the network)",
+              "text": "Telecom G.8275.1 (phase/time synchronization with full timing support from the network)",
+              "selected": false
+            },
+            {
+              "value": "Telecom G.8275.2 (time/phase synchronization with partial timing support from the network)",
+              "text": "Telecom G.8275.2 (time/phase synchronization with partial timing support from the network)",
+              "selected": false
+            },
+            {
+              "value": "Custom",
+              "text": "Custom",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "domain_number_eth3",
+          "id": "domain_number_eth3",
+          "value": "101",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "priority_1_eth3",
+          "id": "priority_1_eth3",
+          "value": "128",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "priority_2_eth3",
+          "id": "priority_2_eth3",
+          "value": "128",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "log_announce_interval_eth3",
+          "id": "log_announce_interval_eth3",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "log_sync_interval_eth3",
+          "id": "log_sync_interval_eth3",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "log_min_delay_req_interval_eth3",
+          "id": "log_min_delay_req_interval_eth3",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "log_min_p_delay_req_interval_eth3",
+          "id": "log_min_p_delay_req_interval_eth3",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "announce_receipt_timeout_eth3",
+          "id": "announce_receipt_timeout_eth3",
+          "value": "2",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "delay_mechanism_eth3",
+          "id": "delay_mechanism_eth3_hidden",
+          "value": "P2P",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "delay_mechanism_eth3",
+          "id": "delay_mechanism_eth3",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b",
+          "options": [
+            {
+              "value": "P2P",
+              "text": "P2P",
+              "selected": true
+            },
+            {
+              "value": "E2E",
+              "text": "E2E",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "hybrid_e2e_eth3",
+          "id": "hybrid_e2e_eth3",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "network_transport_eth3",
+          "id": "network_transport_eth3_hidden",
+          "value": "L2",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "network_transport_eth3",
+          "id": "network_transport_eth3",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b",
+          "options": [
+            {
+              "value": "L2",
+              "text": "L2",
+              "selected": true
+            },
+            {
+              "value": "UDPv4",
+              "text": "UDPv4",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "udp_ttl_eth3",
+          "id": "udp_ttl_eth3",
+          "value": "1",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "inhibit_multicast_service_eth3",
+          "id": "inhibit_multicast_service_eth3",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "unicast_listen_eth3",
+          "id": "unicast_listen_eth3",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "unicast_req_duration_eth3",
+          "id": "unicast_req_duration_eth3",
+          "value": "3600",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "hidden",
+          "name": "dataset_comparison_eth3",
+          "id": "dataset_comparison_eth3_hidden",
+          "value": "ieee1588",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dataset_comparison_eth3",
+          "id": "dataset_comparison_eth3",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b",
+          "options": [
+            {
+              "value": "ieee1588",
+              "text": "ieee1588",
+              "selected": true
+            },
+            {
+              "value": "G.8275.x",
+              "text": "G.8275.x",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "g_8275_default_ds_local_priority_eth3",
+          "id": "g_8275_default_ds_local_priority_eth3",
+          "value": "128",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "g_8275_port_ds_local_priority_eth3",
+          "id": "g_8275_port_ds_local_priority_eth3",
+          "value": "128",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "power_profile_tlv_enabled_eth3",
+          "id": "power_profile_tlv_enabled_eth3",
+          "value": "1",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "grandmaster_id_eth3",
+          "id": "grandmaster_id_eth3",
+          "value": "3",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "transport_specific_eth3",
+          "id": "transport_specific_eth3",
+          "value": "0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ptp_dst_mac_eth3",
+          "id": "ptp_dst_mac_eth3",
+          "value": "01:1B:19:00:00:00",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "p2p_dst_mac_eth3",
+          "id": "p2p_dst_mac_eth3",
+          "value": "01:80:C2:00:00:0E",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": true,
+          "required": false,
+          "class": "form-control field-b"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_eth3",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "eth3",
+          "id": "button_save_eth3",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

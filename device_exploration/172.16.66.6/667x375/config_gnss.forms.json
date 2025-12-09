@@ -1,0 +1,194 @@
+{
+  "timestamp": "2025-11-26T19:07:36.467623",
+  "forms": [
+    {
+      "index": 0,
+      "action": "gnss",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "GPS",
+          "id": null,
+          "value": "1",
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "galileo",
+          "id": "galileo",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "glonass",
+          "id": "glonass",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "gnss"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "beidou",
+          "id": "beidou",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "gnss"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "ant_delay",
+          "id": "ant_delay",
+          "value": "60",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "force_gnss",
+          "id": "force_gnss",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "datetime",
+          "name": "force_time",
+          "id": "force_time",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "save_gnss",
+          "id": "button_save_gnss",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "gnss",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "low_quality",
+          "id": "low_quality",
+          "value": "0.5",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control decimal"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "badtime",
+          "id": "badtime",
+          "value": "1000",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control number"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "save_out_of_bounds_limits",
+          "id": "button_save_oob_limits",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

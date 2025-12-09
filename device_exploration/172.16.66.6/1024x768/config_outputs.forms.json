@@ -1,0 +1,473 @@
+{
+  "timestamp": "2025-11-26T19:43:56.349593",
+  "forms": [
+    {
+      "index": 0,
+      "action": "outputs",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "signal1",
+          "id": "signal1",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control mb-10",
+          "options": [
+            {
+              "value": "OFF",
+              "text": "OFF",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B000",
+              "text": "IRIG-B000",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B002",
+              "text": "IRIG-B002",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B004",
+              "text": "IRIG-B004",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B006",
+              "text": "IRIG-B006",
+              "selected": false
+            },
+            {
+              "value": "PPS",
+              "text": "PPS",
+              "selected": false
+            },
+            {
+              "value": "PPM",
+              "text": "PPM",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time1",
+          "id": "time1-0",
+          "value": "UTC",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time1",
+          "id": "time1-1",
+          "value": "LOCAL",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "signal2",
+          "id": "signal2",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control mb-10",
+          "options": [
+            {
+              "value": "OFF",
+              "text": "OFF",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B000",
+              "text": "IRIG-B000",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B002",
+              "text": "IRIG-B002",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B004",
+              "text": "IRIG-B004",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B006",
+              "text": "IRIG-B006",
+              "selected": false
+            },
+            {
+              "value": "PPS",
+              "text": "PPS",
+              "selected": false
+            },
+            {
+              "value": "PPM",
+              "text": "PPM",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time2",
+          "id": "time2-0",
+          "value": "UTC",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time2",
+          "id": "time2-1",
+          "value": "LOCAL",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "signal3",
+          "id": "signal3",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control mb-10",
+          "options": [
+            {
+              "value": "OFF",
+              "text": "OFF",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B000",
+              "text": "IRIG-B000",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B002",
+              "text": "IRIG-B002",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B004",
+              "text": "IRIG-B004",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B006",
+              "text": "IRIG-B006",
+              "selected": false
+            },
+            {
+              "value": "PPS",
+              "text": "PPS",
+              "selected": false
+            },
+            {
+              "value": "PPM",
+              "text": "PPM",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time3",
+          "id": "time3-0",
+          "value": "UTC",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time3",
+          "id": "time3-1",
+          "value": "LOCAL",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "signal4",
+          "id": "signal4",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control mb-10",
+          "options": [
+            {
+              "value": "OFF",
+              "text": "OFF",
+              "selected": true
+            },
+            {
+              "value": "IRIG-B000",
+              "text": "IRIG-B000",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B002",
+              "text": "IRIG-B002",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B004",
+              "text": "IRIG-B004",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B006",
+              "text": "IRIG-B006",
+              "selected": false
+            },
+            {
+              "value": "PPS",
+              "text": "PPS",
+              "selected": false
+            },
+            {
+              "value": "PPM",
+              "text": "PPM",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time4",
+          "id": "time4-0",
+          "value": "UTC",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time4",
+          "id": "time4-1",
+          "value": "LOCAL",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "signal5",
+          "id": "signal5",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control mb-10",
+          "options": [
+            {
+              "value": "OFF",
+              "text": "OFF",
+              "selected": true
+            },
+            {
+              "value": "IRIG-B120",
+              "text": "IRIG-B120",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B122",
+              "text": "IRIG-B122",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B124",
+              "text": "IRIG-B124",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B126",
+              "text": "IRIG-B126",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time5",
+          "id": "time5-0",
+          "value": "UTC",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time5",
+          "id": "time5-1",
+          "value": "LOCAL",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "signal6",
+          "id": "signal6",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control mb-10",
+          "options": [
+            {
+              "value": "OFF",
+              "text": "OFF",
+              "selected": true
+            },
+            {
+              "value": "IRIG-B120",
+              "text": "IRIG-B120",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B122",
+              "text": "IRIG-B122",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B124",
+              "text": "IRIG-B124",
+              "selected": false
+            },
+            {
+              "value": "IRIG-B126",
+              "text": "IRIG-B126",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time6",
+          "id": "time6-0",
+          "value": "UTC",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "time6",
+          "id": "time6-1",
+          "value": "LOCAL",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": "Cancel",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_save",
+          "value": "Save",
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

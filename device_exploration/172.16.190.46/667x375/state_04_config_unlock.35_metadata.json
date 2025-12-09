@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-11-26T15:28:06.985148",
+  "capture_index": 35,
+  "description": "Page content changed",
+  "url": "https://172.16.190.46/index",
+  "title": "Kronos Series 2",
+  "viewport": {
+    "width": 667,
+    "height": 375
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [],
+    "toast_messages": []
+  }
+}

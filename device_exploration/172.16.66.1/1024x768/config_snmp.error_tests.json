@@ -1,0 +1,30 @@
+[
+  {
+    "field": "ro_community1",
+    "test_type": "required_empty",
+    "invalid_value": "",
+    "timestamp": "2025-11-26T17:37:18.839285",
+    "page": "snmp",
+    "error_detected": false,
+    "error_message": null,
+    "error_locator": null,
+    "save_button_disabled": null,
+    "console_errors": [],
+    "screenshot": "memory-bank/device_exploration/172.16.66.1/1024x768/error_snmp_ro_community1_required_empty.png",
+    "html": "memory-bank/device_exploration/172.16.66.1/1024x768/error_snmp_ro_community1_required_empty.html"
+  },
+  {
+    "field": "ro_community2",
+    "test_type": "required_empty",
+    "invalid_value": "",
+    "timestamp": "2025-11-26T17:37:22.796676",
+    "page": "snmp",
+    "error_detected": false,
+    "error_message": null,
+    "error_locator": null,
+    "save_button_disabled": null,
+    "console_errors": [],
+    "screenshot": "memory-bank/device_exploration/172.16.66.1/1024x768/error_snmp_ro_community2_required_empty.png",
+    "html": "memory-bank/device_exploration/172.16.66.1/1024x768/error_snmp_ro_community2_required_empty.html"
+  }
+]

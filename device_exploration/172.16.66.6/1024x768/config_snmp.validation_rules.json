@@ -1,0 +1,199 @@
+{
+  "html5_attributes": {
+    "ro_community1": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": true,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "button_cancel": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "button_save_1": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "ro_community2": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": true,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "trap_community": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": 29,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "trap_host1": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "trap_host2": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "button_save_2": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "auth_name": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": 29,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "auth_key": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": 29,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "auth_protocol": {
+      "tag": "SELECT",
+      "type": "select-one",
+      "required": false,
+      "pattern": null,
+      "minlength": null,
+      "maxlength": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "title": "",
+      "placeholder": null
+    },
+    "button_save_3": {
+      "tag": "INPUT",
+      "type": "button",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    }
+  },
+  "js_validators": {},
+  "error_messages": [],
+  "event_triggered_validation": {
+    "timestamp": "2025-11-26T19:50:07.587335",
+    "fields_tested": [],
+    "validation_events": [],
+    "summary": {
+      "total_fields_tested": 0,
+      "fields_with_validation": 0
+    }
+  },
+  "dynamic_validation_rules": {
+    "timestamp": "2025-11-26T19:50:20.801437",
+    "rule_changes": [],
+    "conditional_fields": [],
+    "summary": {
+      "total_rule_changes": 0,
+      "fields_affected": 0
+    }
+  },
+  "multi_step_form_analysis": {
+    "timestamp": "2025-11-26T19:50:52.495469",
+    "form_steps": [],
+    "navigation_elements": [],
+    "step_validation": [],
+    "step_indicators": [
+      {
+        "selector": ".collapse",
+        "count": 1,
+        "visible": 0
+      }
+    ],
+    "steps_analyzed": [],
+    "summary": {
+      "multi_step_detected": true,
+      "steps_navigated": 0,
+      "total_navigation_elements": 0
+    }
+  }
+}

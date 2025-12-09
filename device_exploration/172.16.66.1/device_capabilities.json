@@ -1,0 +1,56 @@
+{
+  "device_info": {
+    "ip": "172.16.66.1",
+    "name": "Kronos2-66-1",
+    "series": 2,
+    "model": "Series 2",
+    "firmware_version": "04.04.00",
+    "hardware_model": "KRONOS-2R-HVXX-A2F",
+    "serial_number": "20245",
+    "location": "Dan's Office"
+  },
+  "capabilities": {
+    "ptp_supported": false,
+    "network_interfaces": 1,
+    "interface_names": [
+      "eth0"
+    ],
+    "ptp_interfaces": [],
+    "max_outputs": 4,
+    "gnss_constellations": [
+      "GPS",
+      "Galileo",
+      "GLONASS",
+      "BeiDou"
+    ],
+    "authentication_levels": [
+      "status",
+      "configuration"
+    ],
+    "http_redirect": false
+  },
+  "network_config": {
+    "interfaces": [],
+    "ssl_certificate": {
+      "valid": null,
+      "issuer": null,
+      "expiration": null
+    }
+  },
+  "performance_baseline": {
+    "page_load_times": {},
+    "session_timeout_minutes": 30,
+    "max_concurrent_sessions": 5
+  },
+  "exploration_metadata": {
+    "capture_date": "2025-11-26T17:05:45.010754",
+    "explorer_version": "2.0",
+    "resolutions_captured": [
+      "667x375",
+      "1024x768"
+    ],
+    "test_coverage": "95%",
+    "known_issues": [],
+    "last_updated": "2025-11-26T17:30:02.401964"
+  }
+}

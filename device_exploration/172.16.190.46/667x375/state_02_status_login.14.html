@@ -1,0 +1,277 @@
+<!DOCTYPE html><html lang="en" class="light-color-theme"><head>
+    <meta charset="utf-8">
+    <title>Kronos Series 2</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preload" as="image" href="Kronos_Diamond.svg">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="loading_mask.js"></script>
+    <script>
+        
+            localStorage.setItem('is_cfg_session', 0);
+        
+    </script>
+</head>
+<body class="hold-transition skin-blue layout-top-nav">
+    
+        <script type="text/javascript">
+            $('body').pageLoadingMask('show', {'message': 'Loading satellite data...'});
+        </script>
+    
+    <div class="wrapper">
+        <header id="Main_Header" class="main-header">
+            
+            <nav class="navbar navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        
+                            <a href="/" class="navbar-brand non-mobile-only">
+                                <img src="Kronos_Diamond.svg" title="NovaTech" class="none" width="26">
+                                <span>Kronos Series 2</span>
+                            </a>
+                        
+                        <a href="/" class="navbar-brand mobile-only">
+                            <img src="Kronos_Diamond.svg" title="NovaTech" class="none" width="26">
+                            <span>Kronos Series 2</span>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="glyphicon glyphicon-menu-hamburger"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav mobile-only">
+                            
+                                <li>
+                                    <a href="login"><span class="glyphicon glyphicon-cog"></span> Configure</a>
+                                </li>
+                                <li>
+                                    <a href="logout" title="Log out"><span class="glyphicon glyphicon-log-out"></span> Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-adjust"></span>
+                                </a>
+                                <ul class="dropdown-menu" style="z-index: 9999">
+                                    <li class="change-color-theme" data-color-theme="light-color-theme">
+                                        <span class=""></span><span> Light</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="dark-color-theme">
+                                        <span class=""></span><span> Dark</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="automatic">
+                                        <span class="glyphicon glyphicon-ok"></span><span> Automatic</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                                <li class="non-mobile-only">
+                                    <a href="login" title="Kronos is locked.">
+                                        <span class="glyphicon glyphicon-cog"></span>
+                                        Configure
+                                    </a>
+                                </li>
+                            
+                            
+                                
+                                    <li class="non-mobile-only">
+                                        <a href="logout" title="Log out"><span class="glyphicon glyphicon-log-out"></span> Log out</a>
+                                    </li>
+                                
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="content-wrapper">
+            <div class="container-fluid">
+<div class="row">
+  
+<script src="d3.min.js"></script>
+<script src="mqttws31.min.js"></script>
+<div id="SSL_FF_Msg">
+    <p>
+        1) Since you don’t have a signed certificate, Firefox requires you to add
+        an SSL certificate exception to obtain monitor information.<br>
+        To add an exception, click this <a href="https://172.16.190.46:9002" target="_blank">link</a>,
+        and then click the ‘Advanced…’ and ‘Accept the Risk and Continue’ buttons.<br>
+        After closing the exception tab, reload this page.<br><br>
+        2) Open a new tab or window, and in the URL bar type in about:config and push enter.<br>
+        Click the ‘Accept the Risk and Continue’ button.<br>
+        Search for preference name 'network.http.http2.websockets'.<br>
+        Set the preference to false.
+    </p>
+</div>
+<div class="mb-15"></div>
+<section class="content">
+    <div class="col-lg-4">
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Time</h3>
+            </div>
+            <div class="box-body">
+                <table class="table-condensed">
+                    <tbody><tr>
+                        <th class="tleft_time">UTC</th>
+                        <td><div id="utc" class="time">2024-10-05 01:29:04</div></td>
+                    </tr>
+                    <tr>
+                        <th class="tleft_time"><div id="tz">MDT</div></th>
+                        <td><div id="lcl" class="time">2024-10-04 19:29:04 -06:00</div></td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">Status</h3>
+            </div>
+            <div class="box-body">
+                <table class="table-condensed">
+                    <tbody><tr>
+                        <th>GNSS state</th>
+                        <td><div id="gnssState" class="gnssState LOCKED">LOCKED</div></td>
+                    </tr>
+                    <tr>
+                        <th>Antenna state</th>
+                        <td><div id="antState">Ok</div></td>
+                    </tr>
+                    <tr>
+                        <th>Time accuracy </th>
+                        <td><div id="tAcc">8 ns</div></td>
+                    </tr>
+                    <tr>
+                        <th>Used / tracked SVs</th>
+                        <td><div id="usedVis">4 / 7</div></td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-header">
+                <h3 class="box-title">General</h3>
+            </div>
+            <div class="box-body">
+                <table class="table" width="100%">
+                    <tbody><tr>
+                        <th style="border-top: none;">Identifier</th>
+                        <td style="border-top: none;"></td>
+                    </tr>
+                    <tr>
+                        <th>Location </th>
+                        <td>Lenexa</td>
+                    </tr>
+                    <tr>
+                        <th>Contact </th>
+                        <td>Novatech Testing</td>
+                    </tr>
+                    <tr>
+                        <th>Model number </th>
+                        <td><div id="modelnr">KRONOS-2P-HV-2</div></td>
+                    </tr>
+                    <tr>
+                        <th>Serial number </th>
+                        <td><div id="serialNr">20216</div></td>
+                    </tr>
+                    <tr>
+                        <th>Firmware version </th>
+                        <td><div id="versionString">04.04.00</div></td>
+                    </tr>
+                    <tr>
+                        <th>IPv4 address A </th>
+                        <td><div id="ipA">172.16.190.46</div> </td>
+                    </tr>
+                    <tr>
+                        <th> MAC address A </th>
+                        <td><div id="macA">00:14:2d:f0:25:a4</div></td>
+                    </tr>
+                    <tr>
+                        <th>Up Time </th>
+                        <td><div id="upTime">0004.01:29:38</div></td>
+                    </tr>
+                    <tr>
+                        <th>SNMP MIB file </th>
+                        <td><a href="kronos2.mib" download="">kronos2.mib</a></td>
+                    </tr>
+                    <tr>
+                        <th>NTP clients </th>
+                        <td><a href="10m" target="_blank">10 min</a> <a href="60m" target="_blank">60 min</a></td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-8">
+        <div class="box">
+            <div class="box-header with-border white">
+                <h3 class="box-title">Sky Plot</h3>
+            </div>
+            <div class="box-body">
+                <div id="graph" class="main text-center">
+                    <div id="polard" class="plot"><svg width="360" height="360" class="d3svg"><circle class="elevC" cx="180" cy="180" r="165"></circle><text class="polarL" x="183" y="12">0°</text><circle class="elevC" cx="180" cy="180" r="137.5"></circle><text class="polarL" x="183" y="39.5">15°</text><circle class="elevC" cx="180" cy="180" r="110"></circle><text class="polarL" x="183" y="67">30°</text><circle class="elevC" cx="180" cy="180" r="82.5"></circle><text class="polarL" x="183" y="94.5">45°</text><circle class="elevC" cx="180" cy="180" r="55"></circle><text class="polarL" x="183" y="122">60°</text><circle class="elevC" cx="180" cy="180" r="27.5"></circle><text class="polarL" x="183" y="149.5">75°</text><circle class="polarL" stroke-dasharray="1" cx="180" cy="180" r="1"></circle><text class="polarL" x="183" y="177">90°</text><line class="elevC" x1="180" y1="152.5" x2="180" y2="15" stroke="black"></line><line class="elevC" x1="193.75" y1="156.185" x2="262.5" y2="37.110000000000014" stroke="black"></line><text class="polarL" x="264.5" y="34.110000000000014">30°</text><line class="elevC" x1="203.815" y1="166.25" x2="322.89" y2="97.5" stroke="black"></line><text class="polarL" x="325.89" y="94.5">60°</text><line class="elevC" x1="207.5" y1="180" x2="345" y2="180" stroke="black"></line><text class="polarLL" x="348" y="184">E</text><line class="elevC" x1="203.815" y1="193.75" x2="322.89" y2="262.5" stroke="black"></line><text class="polarL" x="325.89" y="268.5">120°</text><line class="elevC" x1="193.75" y1="203.815" x2="262.5" y2="322.89" stroke="black"></line><text class="polarL" x="264.5" y="330.89">150°</text><line class="elevC" x1="180" y1="207.5" x2="180" y2="345" stroke="black"></line><text class="polarLL" text-anchor="middle" x="180" y="358">S</text><line class="elevC" x1="166.25" y1="203.815" x2="97.5" y2="322.89" stroke="black"></line><text class="polarL" text-anchor="end" x="96.5" y="330.89">210°</text><line class="elevC" x1="156.185" y1="193.75" x2="37.110000000000014" y2="262.5" stroke="black"></line><text class="polarL" text-anchor="end" x="35.110000000000014" y="268.5">240°</text><line class="elevC" x1="152.5" y1="180" x2="15" y2="180" stroke="black"></line><text class="polarLL" text-anchor="end" x="12" y="184">W</text><line class="elevC" x1="156.185" y1="166.25" x2="37.110000000000014" y2="97.5" stroke="black"></line><text class="polarL" text-anchor="end" x="35.110000000000014" y="94.5">300°</text><line class="elevC" x1="166.25" y1="156.185" x2="97.5" y2="37.110000000000014" stroke="black"></line><text class="polarL" text-anchor="end" x="96.5" y="34.110000000000014">330°</text><circle class="svC" cx="89.56611520198501" cy="50.847027683769" r="2.08" fill="#ffcc00">1</circle><circle class="svC" cx="89.56611520198501" cy="50.847027683769" r="2.08" fill="#ffcc00">1</circle><circle class="svC" cx="132.4874475823126" cy="230.95097454613557" r="5.68" fill="#ffcc00">3</circle><circle class="svC" cx="150.02649203907845" cy="206.98826778980728" r="7.84" fill="#009900">5</circle><circle class="svC" cx="196.27080307701692" cy="145.10715019908898" r="6.94" fill="#009900">7</circle><circle class="svC" cx="89.79188351380523" cy="76.22743271936886" r="3.34" fill="#009900">9</circle><circle class="svC" cx="294.84164112389846" cy="279.83031557805555" r="2.2600000000000002" fill="#ffcc00">11</circle><circle class="svC" cx="194.3268080446067" cy="213.75184462658947" r="6.94" fill="#009900">13</circle><text class="svL" x="91.64611520198501" y="48.767027683769">1</text><text class="svL" x="91.64611520198501" y="48.767027683769">1</text><text class="svL" x="138.1674475823126" y="225.27097454613556">3</text><text class="svL" x="157.86649203907845" y="199.14826778980728">5</text><text class="svL" x="203.21080307701692" y="138.16715019908898">7</text><text class="svL" x="93.13188351380523" y="72.88743271936886">9</text><text class="svL" x="297.10164112389845" y="277.57031557805556">11</text><text class="svL" x="201.2668080446067" y="206.81184462658948">13</text></svg></div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-header with-border white">
+                <h3 class="box-title">Satellites</h3>
+            </div>
+            <div class="box-body">
+                <div id="sv"><table class="table"><thead><tr><th class="size-p25 text-left">Id</th><th class="size-p25 text-left">C/No</th><th class="size-p25 text-left">Constellation</th><th class="text-left">State</th></tr></thead><tbody><tr style="color:#ffcc00"><td class="size-p25 text-left">1</td><td class="size-p25 text-left">6</td><td class="size-p25 text-left">GPS</td><td>tracked</td></tr><tr style="color:#ffcc00"><td class="size-p25 text-left">3</td><td class="size-p25 text-left">26</td><td class="size-p25 text-left">GPS</td><td>tracked</td></tr><tr style="color:#009900"><td class="size-p25 text-left">5</td><td class="size-p25 text-left">38</td><td class="size-p25 text-left">GPS</td><td>in use</td></tr><tr style="color:#009900"><td class="size-p25 text-left">7</td><td class="size-p25 text-left">33</td><td class="size-p25 text-left">GPS</td><td>in use</td></tr><tr style="color:#009900"><td class="size-p25 text-left">9</td><td class="size-p25 text-left">13</td><td class="size-p25 text-left">GPS</td><td>in use</td></tr><tr style="color:#ffcc00"><td class="size-p25 text-left">11</td><td class="size-p25 text-left">7</td><td class="size-p25 text-left">GPS</td><td>tracked</td></tr><tr style="color:#009900"><td class="size-p25 text-left">13</td><td class="size-p25 text-left">33</td><td class="size-p25 text-left">GPS</td><td>in use</td></tr></tbody></table></div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript" src="dashboard.js"></script>
+
+</div>
+            </div>
+        </div>
+        <script>
+            function scrollToTop() {
+                const topEl = document.getElementById('Main_Header');
+                topEl.scrollIntoView();
+            }
+        </script>
+        <footer class="main-footer inherit">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <span class="copyright">Copyright © 2022-2024 NovaTech LLC. All rights reserved.</span>
+                    <div class="pull-right hidden-xs">
+                        <b><a href="#" onclick="scrollToTop()"><span class="glyphicon glyphicon-chevron-up"></span> Top</a></b>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="modal-user-session-expire" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <p class="text-center text-bold">Your user session has expired. Please reload the page.</p>
+                </div>
+                <div class="modal-footer">
+                    <form action="/Users/Delete" method="POST">
+                        <button type="button" id="modal-user-session-expire-reload" class="btn btn-primary btn-block" onclick="window.location.reload()">Reload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script text="text/javascript" src="bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+</body></html>

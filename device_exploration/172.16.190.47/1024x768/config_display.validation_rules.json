@@ -1,0 +1,108 @@
+{
+  "html5_attributes": {
+    "mode1": {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "mode2": {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "mode3": {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "mode4": {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "mode5": {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    }
+  },
+  "js_validators": {},
+  "error_messages": [],
+  "event_triggered_validation": {
+    "timestamp": "2025-11-26T17:00:34.213527",
+    "fields_tested": [],
+    "validation_events": [],
+    "summary": {
+      "total_fields_tested": 0,
+      "fields_with_validation": 0
+    }
+  },
+  "dynamic_validation_rules": {
+    "timestamp": "2025-11-26T17:00:40.797242",
+    "rule_changes": [],
+    "conditional_fields": [],
+    "summary": {
+      "total_rule_changes": 0,
+      "fields_affected": 0
+    }
+  },
+  "multi_step_form_analysis": {
+    "timestamp": "2025-11-26T17:00:42.674495",
+    "form_steps": [],
+    "navigation_elements": [],
+    "step_validation": [],
+    "step_indicators": [
+      {
+        "selector": ".collapse",
+        "count": 1,
+        "visible": 0
+      }
+    ],
+    "steps_analyzed": [],
+    "summary": {
+      "multi_step_detected": true,
+      "steps_navigated": 0,
+      "total_navigation_elements": 0
+    }
+  }
+}

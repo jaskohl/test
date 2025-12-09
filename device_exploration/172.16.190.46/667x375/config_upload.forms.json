@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-26T15:43:03.651503",
+  "forms": [
+    {
+      "index": 0,
+      "action": "/upload",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "file",
+          "name": "file[]",
+          "id": "ajax-upload-id-1764193375049",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

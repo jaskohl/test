@@ -1,0 +1,384 @@
+<!DOCTYPE html><html lang="en" class="light-color-theme"><head>
+    <meta charset="utf-8">
+    <title>Kronos Series 2</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preload" as="image" href="Kronos_Diamond.svg">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="loading_mask.js"></script>
+    <script>
+        
+            localStorage.setItem('is_cfg_session', 1);
+        
+    </script>
+</head>
+<body class="skin-blue sidebar-mini">
+    
+    <div class="wrapper">
+        <header id="Main_Header" class="main-header">
+            
+                <a href="#" class="sidebar-toggle hidden" data-toggle="push-menu" role="button" style="color: #666666; padding: 15px 18px;">
+                    <i class="glyphicon glyphicon-menu-hamburger"></i>
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <a href="/" class="logo text-left">
+                    <span class="logo-mini"><img src="Kronos_Diamond.svg" title="Kronos2 Satellite Clock" class="none" width="26"></span>
+                    <span class="logo-lg"><img src="Kronos_Diamond.svg" title="Kronos2 Satellite Clock" class="none" width="26"> Kronos Series 2</span>
+                </a>
+            
+            <nav class="navbar navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        
+                        <a href="/" class="navbar-brand mobile-only">
+                            <img src="Kronos_Diamond.svg" title="NovaTech" class="none" width="26">
+                            <span>Kronos Series 2</span>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="glyphicon glyphicon-menu-hamburger"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav mobile-only">
+                            
+                                <li>
+                                    <a href="/">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="general">General</a>
+                                </li>
+                                <li>
+                                    <a href="time">Time</a>
+                                </li>
+                                <li>
+                                    <a href="display">Display</a>
+                                </li>
+                                <li>
+                                    <a href="outputs">Outputs</a>
+                                </li>
+                                <li>
+                                    <a href="network">Network</a>
+                                </li>
+                                <li>
+                                    <a href="snmp">SNMP</a>
+                                </li>
+                                <li>
+                                    <a href="gnss">GNSS</a>
+                                </li>
+                                <li>
+                                    <a href="syslog">Syslog</a>
+                                </li>
+                                <li>
+                                    <a href="upload">Upload</a>
+                                </li>
+                                <li>
+                                    <a href="access">Access</a>
+                                </li>
+                                <li>
+                                    <a href="log">Log Files</a>
+                                </li>
+                                <li>
+                                    <a href="legal">Legal Info</a>
+                                </li>
+                                <li>
+                                    <a href="contact">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="logout" title="Log out">Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-adjust"></span>
+                                </a>
+                                <ul class="dropdown-menu" style="z-index: 9999">
+                                    <li class="change-color-theme" data-color-theme="light-color-theme">
+                                        <span class=""></span><span> Light</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="dark-color-theme">
+                                        <span class=""></span><span> Dark</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="automatic">
+                                        <span class="glyphicon glyphicon-ok"></span><span> Automatic</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            
+                                <li class="non-mobile-only">
+                                    <a href="logout" title="Log out"><span class="glyphicon glyphicon-log-out"></span> Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <ul class="sidebar-menu push-menu-toggle" data-widget="tree">
+                        <li id="Open_Close_Sidebar"><a href="#" class="sidebar-toggle text-right" data-toggle="push-menu"><i class="glyphicon glyphicon-menu-hamburger text-left"></i></a></li>
+                    </ul>
+                    <ul class="sidebar-menu" data-widget="tree">
+                        <li class=""><a href="/" class="text-right"><span class="pull-left">Dashboard</span> <i class="glyphicon glyphicon-dashboard text-left"></i></a></li>
+                        <li class=""><a href="general" class="text-right"><span class="pull-left">General</span> <i class="glyphicon glyphicon-list-alt text-left"></i></a></li>
+                        <li class=""><a href="time" class="text-right"><span class="pull-left">Time</span> <i class="glyphicon glyphicon-time text-left"></i></a></li>
+                        <li class=""><a href="display" class="text-right"><span class="pull-left">Display</span> <i class="glyphicon glyphicon-picture text-left"></i></a></li>
+                        <li class=""><a href="outputs" class="text-right"><span class="pull-left">Outputs</span> <i class="glyphicon glyphicon-share text-left"></i></a></li>
+                        <li class=""><a href="network" class="text-right"><span class="pull-left">Network</span> <i class="glyphicon glyphicon-globe text-left"></i></a></li>
+                        <li class=""><a href="snmp" class="text-right"><span class="pull-left">SNMP</span> <i class="glyphicon glyphicon-object-align-vertical text-left"></i></a></li>
+                        <li class=""><a href="gnss" class="text-right"><span class="pull-left">GNSS</span> <i class="glyphicon glyphicon-star-empty text-left"></i></a></li>
+                        <li class=""><a href="syslog" class="text-right"><span class="pull-left">Syslog</span> <i class="glyphicon glyphicon-align-left text-left"></i></a></li>
+                        <li class="active"><a href="upload" class="text-right"><span class="pull-left">Upload</span> <i class="glyphicon glyphicon-upload text-left"></i></a></li>
+                        <li class=""><a href="access" class="text-right"><span class="pull-left">Access</span> <i class="glyphicon glyphicon-user text-left"></i></a></li>
+                        <li class=""><a href="log" class="text-right"><span class="pull-left">Log Files (zip)</span> <i class="glyphicon glyphicon-download-alt text-left"></i></a></li>
+                        <li class=""><a href="legal" class="text-right"><span class="pull-left">Legal Info (pdf)</span> <i class="glyphicon glyphicon-info-sign text-left"></i></a></li>
+                        <li class=""><a href="contact" class="text-right"><span class="pull-left">Contact</span> <i class="glyphicon glyphicon-envelope text-left"></i></a></li>
+                    </ul>
+                </section>
+            </aside>
+        
+        <div class="content-wrapper">
+            <div class="container">
+<div class="row">
+  
+    <style>
+      .ajax-file-upload-statusbar {
+        border: 1px solid #dddddd;
+        margin-top: 10px;
+        width: 100% !important;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        padding: 5px 5px 5px 15px
+      }
+
+      .ajax-file-upload-filename {
+        width: 100%;
+        height: auto;
+        margin: 0 5px 5px 0px;
+      }
+
+      .ajax-file-upload-filesize {
+        width: 50px;
+        height: auto;
+        margin: 0 5px 5px 0px;
+        display: inline-block;
+        vertical-align:middle;
+      }
+
+      .ajax-file-upload-progress {
+        margin: 5px 10px 5px 0px;
+        position: relative;
+        width: 250px;
+        border: 1px solid #ddd;
+        padding: 1px;
+        border-radius: 3px;
+        display: inline-block;
+        color:#FFFFFF;
+      }
+
+      .ajax-file-upload-bar {
+        background-color: #144b96;
+        width: 0;
+        height: 20px;
+        border-radius: 3px;
+        color:#FFFFFF;
+      }
+
+      .ajax-file-upload-percent {
+        position: absolute;
+        display: inline-block;
+        top: 3px;
+        left: 48%
+      }
+
+      .ajax-file-upload-red {
+        -moz-box-shadow: inset 0 39px 0 -24px #e67a73;
+        -webkit-box-shadow: inset 0 39px 0 -24px #e67a73;
+        box-shadow: inset 0 39px 0 -24px #e67a73;
+        background-color: #e4685d;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        display: inline-block;
+        color: #fff;
+        font-family: arial;
+        font-size: 13px;
+        font-weight: normal;
+        padding: 4px 15px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 #b23e35;
+        cursor: pointer;
+        vertical-align: top;
+        margin: 5px 10px 5px 0px;
+      }
+
+      .ajax-file-upload-green {
+        background-color: #77b55a;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        color: #fff;
+        font-family: arial;
+        font-size: 13px;
+        font-weight: normal;
+        padding: 4px 15px;
+        text-decoration: none;
+        cursor: pointer;
+        text-shadow: 0 1px 0 #5b8a3c;
+        vertical-align: top;
+        margin: 5px 10px 5px 0px;
+      }
+
+      .ajax-file-upload {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 15px 20px;
+        cursor:pointer;
+        line-height:20px;
+        margin:0 10px 10px 0;
+        display: inline-block;
+        background: #fff;
+        border: 1px solid #e8e8e8;
+        color: #888;
+        text-decoration: none;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -moz-box-shadow: 0 2px 0 0 #e8e8e8;
+        -webkit-box-shadow: 0 2px 0 0 #e8e8e8;
+        box-shadow: 0 2px 0 0 #e8e8e8;
+        padding: 6px 10px 4px 10px;
+        color: #fff;
+        background: #144b96;
+        border: none;
+        -moz-box-shadow: 0 2px 0 0 #13648d;
+        -webkit-box-shadow: 0 2px 0 0 #13648d;
+        box-shadow: 0 2px 0 0 #13648d;
+        vertical-align: middle;
+      }
+
+      .ajax-file-upload:hover {
+        background: #3396c9;
+        -moz-box-shadow: 0 2px 0 0 #15719f;
+        -webkit-box-shadow: 0 2px 0 0 #15719f;
+        box-shadow: 0 2px 0 0 #15719f;
+      }
+
+      .ajax-upload-dragdrop {
+        border: 2px dashed #dddddd;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        color: #333333;
+        font-size: 14px;
+        text-align: center;
+        padding: 25px 20px 20px 20px;
+        vertical-align: middle;
+        width: 100% !important;
+      }
+      .dark-color-theme .ajax-upload-dragdrop {
+        color: #dadce3;
+      }
+
+      .state-hover {
+        border: 2px solid #A5A5C7;
+      }
+
+      .ajax-file-upload-container {
+        margin: 20px 0px 20px 0px;
+      }
+    </style>
+    <script type="text/javascript" src="jquery.uploadfile.min.js"></script>
+    <section class="content-header clearfix">
+      <ol class="breadcrumb">
+        <li><a href="/"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</a></li>
+        <li><i class="glyphicon glyphicon-upload"></i>Upload</li>
+      </ol>
+    </section>
+    <div class="content">
+      <div class="alert alert-warning alert-warning-soft alert-left-border">
+        <h4><span class="glyphicon glyphicon-exclamation-sign icon"></span> Warning</h4>
+        <p>Only .fwu (firmware upgrade), .pem (certficates for HTTPS/NTS) or .pub (ssh access) files can be uploaded.</p>
+        <p><strong>Kronos will automatically restart</strong> after succesfully uploading a .fwu file.</p>
+    </div>
+      <div class="box">
+        <div class="box-header with-border white">
+          <h3 class="box-title">Upload</h3>
+        </div>
+        <div class="box-body">
+          <div id="file_uploader"><div class="ajax-upload-dragdrop" style="vertical-align: top; width: 400px;"><div class="ajax-file-upload" style="position: relative; overflow: hidden; cursor: default;">Select file to upload<form method="POST" action="/upload" enctype="multipart/form-data" style="margin: 0px; padding: 0px;"><input type="file" id="ajax-upload-id-1764199316394" name="file[]" accept="*" multiple="" style="position: absolute; cursor: pointer; top: 0px; width: 100%; height: 100%; left: 0px; z-index: 100; opacity: 0;"></form></div><span>or drag &amp; drop file to upload.</span></div><div></div></div><div class="ajax-file-upload-container"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function() {
+        $("#file_uploader").uploadFile({
+          url: '/upload',
+          fileName: 'file',
+          showProgess: true,
+          showDone: true,
+          autoSubmit: true,
+          uploadStr: 'Select file to upload',
+          dragDropStr: '<span>or drag &amp; drop file to upload.</span>',
+          showFileCounter: false,
+          allowedTypes: "fwu, pem, pub"
+        });
+      });
+    </script>
+
+</div>
+            </div>
+        </div>
+        <script>
+            function scrollToTop() {
+                const topEl = document.getElementById('Main_Header');
+                topEl.scrollIntoView();
+            }
+        </script>
+        <footer class="main-footer inherit">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <span class="copyright">Copyright © 2022-2025 NovaTech LLC. All rights reserved.</span>
+                    <div class="pull-right hidden-xs">
+                        <b><a href="#" onclick="scrollToTop()"><span class="glyphicon glyphicon-chevron-up"></span> Top</a></b>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="modal-user-session-expire" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <p class="text-center text-bold">Your user session has expired. Please reload the page.</p>
+                </div>
+                <div class="modal-footer">
+                    <form action="/Users/Delete" method="POST">
+                        <button type="button" id="modal-user-session-expire-reload" class="btn btn-primary btn-block" onclick="window.location.reload()">Reload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script text="text/javascript" src="bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+</body></html>

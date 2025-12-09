@@ -1,0 +1,82 @@
+{
+  "html5_attributes": {
+    "identifier": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "location": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    },
+    "contact": {
+      "tag": "INPUT",
+      "type": "text",
+      "required": false,
+      "pattern": "",
+      "minlength": null,
+      "maxlength": -1,
+      "min": "",
+      "max": "",
+      "step": "",
+      "title": "",
+      "placeholder": ""
+    }
+  },
+  "js_validators": {},
+  "error_messages": [],
+  "event_triggered_validation": {
+    "timestamp": "2025-11-26T15:45:23.351485",
+    "fields_tested": [],
+    "validation_events": [],
+    "summary": {
+      "total_fields_tested": 0,
+      "fields_with_validation": 0
+    }
+  },
+  "dynamic_validation_rules": {
+    "timestamp": "2025-11-26T15:45:27.380241",
+    "rule_changes": [],
+    "conditional_fields": [],
+    "summary": {
+      "total_rule_changes": 0,
+      "fields_affected": 0
+    }
+  },
+  "multi_step_form_analysis": {
+    "timestamp": "2025-11-26T15:45:28.412078",
+    "form_steps": [],
+    "navigation_elements": [],
+    "step_validation": [],
+    "step_indicators": [
+      {
+        "selector": ".collapse",
+        "count": 1,
+        "visible": 0
+      }
+    ],
+    "steps_analyzed": [],
+    "summary": {
+      "multi_step_detected": true,
+      "steps_navigated": 0,
+      "total_navigation_elements": 0
+    }
+  }
+}

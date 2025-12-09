@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-11-26T15:44:09.847823",
+  "capture_index": 0,
+  "description": "Initial login page",
+  "url": "https://172.16.190.46/authenticate",
+  "title": "Kronos Series 2",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [
+      {
+        "text": "Submit",
+        "disabled": false
+      }
+    ],
+    "toast_messages": []
+  }
+}

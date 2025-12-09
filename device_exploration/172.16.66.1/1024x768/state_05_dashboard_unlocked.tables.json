@@ -1,0 +1,159 @@
+[
+  {
+    "index": 0,
+    "headers": [],
+    "rows": [
+      [
+        "UTC",
+        "2025-11-26 23:24:04"
+      ],
+      [
+        "MST",
+        "2025-11-26 16:24:04 -07:00"
+      ]
+    ]
+  },
+  {
+    "index": 1,
+    "headers": [],
+    "rows": [
+      [
+        "GNSS state",
+        "LOCKED"
+      ],
+      [
+        "Antenna state",
+        "unknown"
+      ],
+      [
+        "Time accuracy",
+        "5 ns"
+      ],
+      [
+        "Used / tracked SVs",
+        "10 / 10"
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "headers": [],
+    "rows": [
+      [
+        "Identifier",
+        ""
+      ],
+      [
+        "Location",
+        "Dan's Office"
+      ],
+      [
+        "Contact",
+        "nobody@knows.com"
+      ],
+      [
+        "Model number",
+        "KRONOS-2R-HVXX-A2F"
+      ],
+      [
+        "Serial number",
+        "20245"
+      ],
+      [
+        "Firmware version",
+        "04.04.00"
+      ],
+      [
+        "IPv4 address A",
+        "172.16.66.1"
+      ],
+      [
+        "MAC address A",
+        "00:14:2d:f0:25:ab"
+      ],
+      [
+        "Up Time",
+        "0004.11:46:11"
+      ],
+      [
+        "SNMP MIB file",
+        "kronos2.mib"
+      ],
+      [
+        "NTP clients",
+        "10 min 60 min"
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "headers": [
+      "Id",
+      "C/No",
+      "Constellation",
+      "State"
+    ],
+    "rows": [
+      [
+        "1",
+        "41",
+        "GPS",
+        "in use"
+      ],
+      [
+        "2",
+        "42",
+        "GPS",
+        "in use"
+      ],
+      [
+        "7",
+        "32",
+        "GPS",
+        "in use"
+      ],
+      [
+        "13",
+        "35",
+        "GPS",
+        "in use"
+      ],
+      [
+        "14",
+        "46",
+        "GPS",
+        "in use"
+      ],
+      [
+        "15",
+        "26",
+        "GPS",
+        "in use"
+      ],
+      [
+        "17",
+        "47",
+        "GPS",
+        "in use"
+      ],
+      [
+        "19",
+        "44",
+        "GPS",
+        "in use"
+      ],
+      [
+        "22",
+        "43",
+        "GPS",
+        "in use"
+      ],
+      [
+        "30",
+        "45",
+        "GPS",
+        "in use"
+      ]
+    ]
+  }
+]

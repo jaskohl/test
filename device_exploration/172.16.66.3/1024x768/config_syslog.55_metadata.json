@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-11-26T18:41:04.850603",
+  "capture_index": 55,
+  "description": "Syslog configuration - Initial load",
+  "url": "https://172.16.66.3/syslog",
+  "title": "Kronos Series 3",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [],
+    "toast_messages": [
+      "Leave Target A and Target B empty to disable remote syslog."
+    ]
+  }
+}

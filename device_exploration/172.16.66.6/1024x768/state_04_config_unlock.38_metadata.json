@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-11-26T19:21:49.710954",
+  "capture_index": 38,
+  "description": "Page content changed",
+  "url": "https://172.16.66.6/index",
+  "title": "Kronos Series 3",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [],
+    "toast_messages": []
+  }
+}

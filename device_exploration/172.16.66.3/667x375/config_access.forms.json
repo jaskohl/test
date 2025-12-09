@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-11-26T18:10:37.531257",
+  "forms": [
+    {
+      "index": 0,
+      "action": "access",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "cfgpwd",
+          "id": "cfgpwd",
+          "value": "novatech",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "uplpwd",
+          "id": "uplpwd",
+          "value": "novatech",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "stspwd",
+          "id": "stspwd",
+          "value": "novatech",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "enforce_https",
+          "id": "enforce_https",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "NEVER",
+              "text": "Never",
+              "selected": false
+            },
+            {
+              "value": "CFG_ONLY",
+              "text": "Only for configuration",
+              "selected": false
+            },
+            {
+              "value": "ALWAYS",
+              "text": "Always",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": "Cancel",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_save",
+          "value": "Save",
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

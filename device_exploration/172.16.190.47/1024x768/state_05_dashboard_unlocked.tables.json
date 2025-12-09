@@ -1,0 +1,203 @@
+[
+  {
+    "index": 0,
+    "headers": [],
+    "rows": [
+      [
+        "UTC",
+        "2025-11-26 22:34:30"
+      ],
+      [
+        "MST",
+        "2025-11-26 15:34:30 -07:00"
+      ]
+    ]
+  },
+  {
+    "index": 1,
+    "headers": [],
+    "rows": [
+      [
+        "GNSS state",
+        "LOCKED"
+      ],
+      [
+        "Antenna state",
+        "Ok"
+      ],
+      [
+        "Time accuracy",
+        "7 ns"
+      ],
+      [
+        "Used / tracked SVs",
+        "14 / 18"
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "headers": [],
+    "rows": [
+      [
+        "Identifier",
+        ""
+      ],
+      [
+        "Location",
+        ""
+      ],
+      [
+        "Contact",
+        ""
+      ],
+      [
+        "Model number",
+        "KRONOS-3R-HVXX-TCXO-A2X"
+      ],
+      [
+        "Serial number",
+        "30134"
+      ],
+      [
+        "Firmware version",
+        "02.06.04"
+      ],
+      [
+        "IPv4 address eth0",
+        "172.16.190.47"
+      ],
+      [
+        "MAC address eth0",
+        "00:90:9D:E2:93:48"
+      ],
+      [
+        "Up Time",
+        "0003.22:57:30"
+      ],
+      [
+        "SNMP MIB file",
+        "kronos3.mib"
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "headers": [
+      "Id",
+      "C/No",
+      "Constellation",
+      "State"
+    ],
+    "rows": [
+      [
+        "1",
+        "13",
+        "GPS",
+        "in use"
+      ],
+      [
+        "2",
+        "34",
+        "GPS",
+        "in use"
+      ],
+      [
+        "7",
+        "19",
+        "GPS",
+        "in use"
+      ],
+      [
+        "8",
+        "28",
+        "GPS",
+        "in use"
+      ],
+      [
+        "13",
+        "29",
+        "GPS",
+        "in use"
+      ],
+      [
+        "14",
+        "38",
+        "GPS",
+        "in use"
+      ],
+      [
+        "15",
+        "20",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "17",
+        "37",
+        "GPS",
+        "in use"
+      ],
+      [
+        "19",
+        "27",
+        "GPS",
+        "in use"
+      ],
+      [
+        "22",
+        "39",
+        "GPS",
+        "in use"
+      ],
+      [
+        "30",
+        "37",
+        "GPS",
+        "in use"
+      ],
+      [
+        "46",
+        "11",
+        "BeiDou",
+        "in use"
+      ],
+      [
+        "47",
+        "23",
+        "BeiDou",
+        "tracked"
+      ],
+      [
+        "49",
+        "20",
+        "BeiDou",
+        "tracked"
+      ],
+      [
+        "50",
+        "23",
+        "BeiDou",
+        "in use"
+      ],
+      [
+        "54",
+        "31",
+        "BeiDou",
+        "in use"
+      ],
+      [
+        "55",
+        "35",
+        "BeiDou",
+        "in use"
+      ],
+      [
+        "57",
+        "22",
+        "BeiDou",
+        "tracked"
+      ]
+    ]
+  }
+]

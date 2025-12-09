@@ -1,0 +1,829 @@
+{
+  "timestamp": "2025-11-26T18:19:45.064809",
+  "forms": [
+    {
+      "index": 0,
+      "action": "network",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "gateway",
+          "id": "gateway",
+          "value": "172.16.0.1",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_gateway",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "gateway_save_btn",
+          "id": "button_save_gateway",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "network",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "sfp_mode",
+          "id": "sfp_mode-0",
+          "value": "A",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "sfp_mode",
+          "id": "sfp_mode-1",
+          "value": "B",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "INPUT",
+          "type": "radio",
+          "name": "sfp_mode",
+          "id": "sfp_mode-2",
+          "value": "C",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": null
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_sfp_mode",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "sfp_mode_btn",
+          "id": "button_save_sfp_mode",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "action": "network",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ip_eth0",
+          "id": "ip_eth0",
+          "value": "172.16.66.3",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "mask_eth0",
+          "id": "mask_eth0",
+          "value": "255.255.0.0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "mtu_eth0",
+          "id": "mtu_eth0",
+          "value": "1500",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ntp_enable_eth0",
+          "id": "ntp_enable_eth0",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "snmp_enable_eth0",
+          "id": "snmp_enable_eth0",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "vlan_enable_eth0",
+          "id": "vlan_enable_eth0",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_id_eth0",
+          "id": "vlan_id_eth0",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_priority_eth0",
+          "id": "vlan_priority_eth0",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "changeip_eth0",
+          "id": "changeip_eth0",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_port_eth0",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "port_eth0",
+          "id": "button_save_port_eth0",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "action": "network",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ip_eth1",
+          "id": "ip_eth1",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "mask_eth1",
+          "id": "mask_eth1",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "mtu_eth1",
+          "id": "mtu_eth1",
+          "value": "1494",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ntp_enable_eth1",
+          "id": "ntp_enable_eth1",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ptp_enable_eth1",
+          "id": "ptp_enable_eth1",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "snmp_enable_eth1",
+          "id": "snmp_enable_eth1",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "vlan_enable_eth1",
+          "id": "vlan_enable_eth1",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_id_eth1",
+          "id": "vlan_id_eth1",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_priority_eth1",
+          "id": "vlan_priority_eth1",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_port_eth1",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "port_eth1",
+          "id": "button_save_port_eth1",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "action": "network",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ip_eth2",
+          "id": "ip_eth2",
+          "value": "192.168.102.1",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "mask_eth2",
+          "id": "mask_eth2",
+          "value": "255.255.255.0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "mtu_eth2",
+          "id": "mtu_eth2",
+          "value": "1500",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ntp_enable_eth2",
+          "id": "ntp_enable_eth2",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ptp_enable_eth2",
+          "id": "ptp_enable_eth2",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "snmp_enable_eth2",
+          "id": "snmp_enable_eth2",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "vlan_enable_eth2",
+          "id": "vlan_enable_eth2",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_id_eth2",
+          "id": "vlan_id_eth2",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_priority_eth2",
+          "id": "vlan_priority_eth2",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_port_eth2",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "port_eth2",
+          "id": "button_save_port_eth2",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "action": "network",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ip_eth3",
+          "id": "ip_eth3",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "mask_eth3",
+          "id": "mask_eth3",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "mtu_eth3",
+          "id": "mtu_eth3",
+          "value": "1494",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ntp_enable_eth3",
+          "id": "ntp_enable_eth3",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ptp_enable_eth3",
+          "id": "ptp_enable_eth3",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "snmp_enable_eth3",
+          "id": "snmp_enable_eth3",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "vlan_enable_eth3",
+          "id": "vlan_enable_eth3",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_id_eth3",
+          "id": "vlan_id_eth3",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_priority_eth3",
+          "id": "vlan_priority_eth3",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_port_eth3",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "port_eth3",
+          "id": "button_save_port_eth3",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "action": "network",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ip_eth4",
+          "id": "ip_eth4",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "mask_eth4",
+          "id": "mask_eth4",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "number",
+          "name": "mtu_eth4",
+          "id": "mtu_eth4",
+          "value": "1500",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ntp_enable_eth4",
+          "id": "ntp_enable_eth4",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "ptp_enable_eth4",
+          "id": "ptp_enable_eth4",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "snmp_enable_eth4",
+          "id": "snmp_enable_eth4",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "vlan_enable_eth4",
+          "id": "vlan_enable_eth4",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": ""
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_id_eth4",
+          "id": "vlan_id_eth4",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "vlan_priority_eth4",
+          "id": "vlan_priority_eth4",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel_port_eth4",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": "port_eth4",
+          "id": "button_save_port_eth4",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

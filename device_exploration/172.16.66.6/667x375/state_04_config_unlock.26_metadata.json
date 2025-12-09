@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-11-26T18:45:47.918644",
+  "capture_index": 26,
+  "description": "Config unlock form visible",
+  "url": "https://172.16.66.6/login",
+  "title": "Kronos Series 3",
+  "viewport": {
+    "width": 667,
+    "height": 375
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [
+      {
+        "text": "Submit",
+        "disabled": false
+      },
+      {
+        "text": "Cancel",
+        "disabled": false
+      }
+    ],
+    "toast_messages": []
+  }
+}

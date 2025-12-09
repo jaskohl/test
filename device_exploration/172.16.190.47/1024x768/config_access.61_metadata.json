@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-11-26T17:04:44.675662",
+  "capture_index": 61,
+  "description": "Access configuration - Initial load",
+  "url": "https://172.16.190.47/access",
+  "title": "Kronos Series 3",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [],
+    "toast_messages": []
+  }
+}

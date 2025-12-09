@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-11-26T15:28:59.539419",
+  "forms": [
+    {
+      "index": 0,
+      "action": "network",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "mode",
+          "id": "mode",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "DHCP",
+              "text": "DHCP",
+              "selected": false
+            },
+            {
+              "value": "SINGLE",
+              "text": "SINGLE",
+              "selected": true
+            },
+            {
+              "value": "DUAL",
+              "text": "DUAL",
+              "selected": false
+            },
+            {
+              "value": "BALANCE-RR",
+              "text": "BALANCE-RR",
+              "selected": false
+            },
+            {
+              "value": "ACTIVE-BACKUP",
+              "text": "ACTIVE-BACKUP",
+              "selected": false
+            },
+            {
+              "value": "BROADCAST",
+              "text": "BROADCAST",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "gateway",
+          "id": "gateway",
+          "value": "172.16.0.1",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ipaddr",
+          "id": "ipaddr",
+          "value": "172.16.190.46",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ipmask",
+          "id": "ipmask",
+          "value": "255.255.0.0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ipaddrB",
+          "id": "ipaddrB",
+          "value": "10.0.0.181",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "ipmaskB",
+          "id": "ipmaskB",
+          "value": "255.255.255.0",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": "Cancel",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_save",
+          "value": "Save",
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

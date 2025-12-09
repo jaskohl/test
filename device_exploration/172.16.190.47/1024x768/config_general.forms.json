@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-11-26T16:41:27.790666",
+  "forms": [
+    {
+      "index": 0,
+      "action": "general",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "identifier",
+          "id": "identifier",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "location",
+          "id": "location",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "contact",
+          "id": "contact",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": null,
+          "id": "button_save",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

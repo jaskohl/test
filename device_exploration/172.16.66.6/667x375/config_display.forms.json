@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-11-26T19:14:28.298568",
+  "forms": [
+    {
+      "index": 0,
+      "action": "display",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "mode1",
+          "id": "mode1",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "mode"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "mode2",
+          "id": "mode2",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "mode"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "mode3",
+          "id": "mode3",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "mode"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "mode4",
+          "id": "mode4",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "mode"
+        },
+        {
+          "tag": "INPUT",
+          "type": "checkbox",
+          "name": "mode5",
+          "id": "mode5",
+          "value": "y",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "mode"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "name": null,
+          "id": "button_save",
+          "value": null,
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

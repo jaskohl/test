@@ -1,0 +1,44 @@
+[
+  {
+    "field": "identifier",
+    "test_type": "exceeds_maxlength",
+    "invalid_value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "timestamp": "2025-11-26T18:53:50.701433",
+    "page": "general",
+    "error_detected": false,
+    "error_message": null,
+    "error_locator": null,
+    "save_button_disabled": false,
+    "console_errors": [],
+    "screenshot": "memory-bank/device_exploration/172.16.66.6/667x375/error_general_identifier_exceeds_maxlength.png",
+    "html": "memory-bank/device_exploration/172.16.66.6/667x375/error_general_identifier_exceeds_maxlength.html"
+  },
+  {
+    "field": "location",
+    "test_type": "exceeds_maxlength",
+    "invalid_value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "timestamp": "2025-11-26T18:54:11.164025",
+    "page": "general",
+    "error_detected": false,
+    "error_message": null,
+    "error_locator": null,
+    "save_button_disabled": false,
+    "console_errors": [],
+    "screenshot": "memory-bank/device_exploration/172.16.66.6/667x375/error_general_location_exceeds_maxlength.png",
+    "html": "memory-bank/device_exploration/172.16.66.6/667x375/error_general_location_exceeds_maxlength.html"
+  },
+  {
+    "field": "contact",
+    "test_type": "exceeds_maxlength",
+    "invalid_value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "timestamp": "2025-11-26T18:54:24.895350",
+    "page": "general",
+    "error_detected": false,
+    "error_message": null,
+    "error_locator": null,
+    "save_button_disabled": false,
+    "console_errors": [],
+    "screenshot": "memory-bank/device_exploration/172.16.66.6/667x375/error_general_contact_exceeds_maxlength.png",
+    "html": "memory-bank/device_exploration/172.16.66.6/667x375/error_general_contact_exceeds_maxlength.html"
+  }
+]

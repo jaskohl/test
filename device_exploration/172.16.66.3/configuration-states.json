@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "description": "Configuration states and behaviors specific to Kronos3-66-3 (172.16.66.3)",
+    "source": "Device exploration of Kronos3-66-3",
+    "device_info": {
+      "ip": "172.16.66.3",
+      "name": "Kronos3-66-3",
+      "series": "kronos3",
+      "exploration_date": "2025-11-26T17:40:28.321419"
+    },
+    "last_updated": "2025-11-26T17:40:28.321419"
+  },
+  "device_authentication_states": {
+    "status_monitoring_login": {
+      "description": "Initial login state for dashboard access",
+      "url_pattern": "/login",
+      "ui_elements": [
+        "Password field (placeholder: 'Password')",
+        "Submit button (role: button, name: 'Submit')"
+      ],
+      "post_login_behavior": "Redirects to dashboard with 4 status tables",
+      "device_specific_timing": "2-3 seconds typical"
+    },
+    "configuration_unlock": {
+      "description": "Secondary authentication for configuration access",
+      "trigger": "Dashboard dropdown \u2192 Configure link",
+      "url_pattern": "/login (configuration mode)",
+      "device_specific_behavior": "Requires separate password entry"
+    }
+  },
+  "device_navigation_states": {
+    "dashboard": {
+      "description": "Main status monitoring dashboard",
+      "url_pattern": "/",
+      "tables_present": 4,
+      "table_descriptions": [
+        "Time Information (UTC/Local)",
+        "GNSS Status (LOCKED state)",
+        "Device Information (11 fields)",
+        "Satellite Tracking (Id, C/No, Constellation, State)"
+      ],
+      "navigation_options": [
+        "Dropdown menu with 'Configure' link"
+      ]
+    },
+    "configuration_sections": {
+      "available_sections": [
+        "general",
+        "network",
+        "time",
+        "gnss",
+        "outputs",
+        "display",
+        "snmp",
+        "syslog",
+        "access",
+        "contact"
+      ],
+      "device_series_specific": "ptp",
+      "access_patterns": {
+        "status_mode": "Read-only dashboard access",
+        "config_mode": "Full read-write configuration access"
+      }
+    }
+  },
+  "device_capabilities_observed": {
+    "implemented_features": [
+      "Status monitoring with 4-table dashboard",
+      "General configuration (identifier, location, contact)",
+      "GNSS constellation status (read-only)",
+      "Network configuration status (read-only)",
+      "Satellite tracking data extraction"
+    ],
+    "read_only_constraints": [
+      "GNSS constellation control (checkboxes disabled)",
+      "Network protocol configuration (fields read-only)"
+    ],
+    "device_specific_limitations": "Observed limitations for Kronos3-66-3 during exploration"
+  },
+  "state_transitions_observed": {
+    "login_to_dashboard": {
+      "trigger": "Valid password submission",
+      "duration": "2-3 seconds",
+      "validation": "4 tables visible on page",
+      "satellite_loading": true
+    },
+    "dashboard_to_config_unlock": {
+      "trigger": "Dropdown \u2192 Configure link",
+      "duration": "1-2 seconds",
+      "validation": "Password field visible"
+    },
+    "config_unlock_to_section": {
+      "trigger": "Sidebar navigation link",
+      "duration": "1-2 seconds",
+      "validation": "Section-specific content loaded"
+    }
+  },
+  "device_specific_dynamic_behaviors": {
+    "outputs_page_dropdown_dependency": {
+      "description": "Signal type selection affects radio button visibility",
+      "observed_patterns": {
+        "IRIG-B_signals": {
+          "time1_visible": true,
+          "time2_visible": true
+        },
+        "PPS_PPM_signals": {
+          "time1_visible": false,
+          "time2_visible": true
+        }
+      },
+      "state_transitions": "Layout changes occur within 1 second"
+    },
+    "network_config_readonly": {
+      "description": "Network settings are read-only to prevent connectivity loss",
+      "safety_measures": "Configuration changes blocked in UI"
+    }
+  },
+  "exploration_findings": {
+    "ui_consistency": "UI patterns observed for Kronos3-66-3",
+    "behavioral_notes": "Device-specific behaviors noted during exploration",
+    "test_implications": [
+      "Tests designed for Kronos3-66-3 characteristics",
+      "Read-only testing for network settings",
+      "Dual authentication workflow required"
+    ]
+  }
+}

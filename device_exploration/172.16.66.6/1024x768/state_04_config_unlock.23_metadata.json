@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-11-26T19:21:29.562105",
+  "capture_index": 23,
+  "description": "Config password filled",
+  "url": "https://172.16.66.6/login",
+  "title": "Kronos Series 3",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [
+      {
+        "text": "Submit",
+        "disabled": false
+      },
+      {
+        "text": "Cancel",
+        "disabled": false
+      }
+    ],
+    "toast_messages": []
+  }
+}

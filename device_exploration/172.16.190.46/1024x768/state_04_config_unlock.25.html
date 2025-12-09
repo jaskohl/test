@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en" class="light-color-theme"><head>
+    <meta charset="utf-8">
+    <title>Kronos Series 2</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript">
+        function login_cancel(f) {
+            location.href="index";
+        }
+    </script>
+</head>
+<body class="hold-transition login-page">
+    <div class="login-box">
+        
+        <div class="login-box-body">
+            <p class="login-box-msg">
+                <span>Enter configuration password</span>
+            </p>
+            <form action="login" method="POST">
+                
+                <div class="form-group has-feedback">
+                    <input class="form-control" id="cfg_password" name="cfg_password" placeholder="Password" type="password" value="" style="">
+                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" style="background-color: #144b96;">Submit</button>
+                <button type="button" class="btn btn-default btn-block" onclick="login_cancel()">Cancel</button>
+                <input type="hidden" name="redirect_url" value="${next_url}" style="">
+            </form>
+        </div>
+    </div>
+    <footer class="login-footer">
+        <div class="wrapper">
+            <span class="copyright">Copyright © 2022-2024 NovaTech LLC. All rights reserved.</span>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        document.getElementById('cfg_password').focus();
+    </script>
+
+</body></html>

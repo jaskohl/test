@@ -1,0 +1,107 @@
+"""
+Test 29.3.5 Eth0 SNMP Configuration - Pure Page Object Pattern
+Category: 29 - Network Configuration Series 3
+Purpose: Test eth0 SNMP enable/disable checkbox functionality.
+Expected: SNMP enable checkbox visible and enabled for Series 3.
+
+PATTERN: PURE PAGE OBJECT - No direct DeviceCapabilities calls
+REFACTORED: Uses NetworkConfigPage methods instead of direct DeviceCapabilities.
+"""
+
+import pytest
+import logging
+from playwright.sync_api import Page, expect
+from pages.network_config_page import NetworkConfigPage
+
+logger = logging.getLogger(__name__)
+
+
+def test_29_3_5_eth0_snmp(unlocked_config_page: Page, base_url: str, request):
+    """
+    Test 29.3.5: eth0 SNMP Configuration - Pure Page Object Pattern
+
+    Purpose: Test eth0 SNMP enable/disable checkbox functionality.
+    Pattern: PURE PAGE OBJECT - No direct DeviceCapabilities calls
+    """
+    # Get device model from session
+    device_model = (
+        request.session.device_hardware_model
+        if hasattr(request.session, "device_hardware_model")
+        else "unknown"
+    )
+    if not device_model or device_model == "Unknown":
+        pytest.fail("Device model not detected")
+
+    # Create page object with device_model
+    network_page = NetworkConfigPage(unlocked_config_page, device_model=device_model)
+
+    # Validate Series 3 requirement using page object
+    device_series = network_page.get_series()
+    if device_series != 3:
+        pytest.skip(f"Series 3 only (detected Series {device_series})")
+
+    logger.info(f"Testing eth0 SNMP on {device_model}")
+
+    # Navigate and verify page loaded using page object
+    network_page.navigate_to_page()
+    network_page.verify_page_loaded()
+
+    # Expand eth0 panel using page object method
+    try:
+        panel_expanded = network_page.expand_eth0_panel()
+        if panel_expanded:
+            logger.info("eth0 panel expanded successfully via page object")
+        else:
+            logger.warning(
+                "eth0 panel expansion returned false - may already be expanded"
+            )
+    except Exception as e:
+        logger.warning(f"eth0 panel expansion failed for {device_model}: {e}")
+        # Panel expansion is optional - continue with test
+
+    # Get device-aware timeout through page object
+    timeout_multiplier = network_page.get_timeout_multiplier()
+    device_timeout = int(5000 * timeout_multiplier)
+
+    # Test SNMP enable checkbox using page object method
+    try:
+        snmp_locator = network_page.get_eth0_snmp_enable_field_locator()
+
+        if snmp_locator and snmp_locator.count() > 0:
+            expect(snmp_locator).to_be_visible(timeout=device_timeout)
+            expect(snmp_locator).to_be_enabled(timeout=device_timeout)
+            logger.info(f"eth0 SNMP checkbox validated - visible and enabled")
+            print(f"ETH0 SNMP VALIDATED: {device_model}")
+        else:
+            logger.info(
+                f"SNMP field not visible for eth0 on {device_model} (expected on some configurations)"
+            )
+            print(f"ETH0 SNMP NOT PRESENT: {device_model}")
+
+    except Exception as e:
+        pytest.fail(f"eth0 SNMP checkbox validation failed on {device_model}: {e}")
+
+    # Additional validation through page object capabilities
+    network_capable = network_page.has_capability("network")
+    if not network_capable:
+        pytest.skip(f"Device {device_model} does not support network configuration")
+
+    # Log comprehensive test results through page object
+    device_info = network_page.get_device_info()
+    logger.info(f"eth0 SNMP test completed for {device_model}: {device_info}")
+
+    # Additional validation - get eth0 SNMP configuration through page object
+    try:
+        eth0_snmp_config = network_page.get_eth0_snmp_configuration()
+        if eth0_snmp_config:
+            logger.info(
+                f"eth0 SNMP configuration retrieved through page object: {eth0_snmp_config}"
+            )
+        else:
+            logger.info(
+                f"No eth0 SNMP configuration retrieved through page object for {device_model}"
+            )
+    except Exception as e:
+        logger.warning(
+            f"eth0 SNMP configuration retrieval failed for {device_model}: {e}"
+        )

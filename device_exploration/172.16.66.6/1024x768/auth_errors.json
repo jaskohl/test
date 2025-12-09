@@ -1,0 +1,11 @@
+[
+  {
+    "field_type": "password",
+    "timestamp": "2025-11-26T19:20:47.186217",
+    "error_visible": true,
+    "error_message": "Incorrect password.",
+    "error_locator": "page.get_by_text('Incorrect password.', exact=False)",
+    "console_errors": [],
+    "url_after_submit": "https://172.16.66.6/authenticate"
+  }
+]

@@ -1,0 +1,611 @@
+{
+  "timestamp": "2025-11-26T18:27:07.052874",
+  "forms": [
+    {
+      "index": 0,
+      "action": "time",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "timezones",
+          "id": "timezones",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "",
+              "text": "-- select --",
+              "selected": false
+            },
+            {
+              "value": "+00:00 UTC UTC",
+              "text": "UTC",
+              "selected": false
+            },
+            {
+              "value": "+03:00 BRT BRST",
+              "text": "America/Sao Paulo",
+              "selected": false
+            },
+            {
+              "value": "+04:00 CLT CLST",
+              "text": "America/Santiago",
+              "selected": false
+            },
+            {
+              "value": "+05:00 ECT ECT",
+              "text": "America/Quito",
+              "selected": false
+            },
+            {
+              "value": "+06:00 CST CST",
+              "text": "America/Guatemala City",
+              "selected": false
+            },
+            {
+              "value": "+00:00 WET WEST",
+              "text": "Europe/Western Europe",
+              "selected": false
+            },
+            {
+              "value": "-01:00 CET CEST",
+              "text": "Europe/Central Europe",
+              "selected": false
+            },
+            {
+              "value": "-02:00 EET EEST",
+              "text": "Europe/Eastern Europe",
+              "selected": false
+            },
+            {
+              "value": "-07:00 ICT ICT",
+              "text": "Asia/Bangkok",
+              "selected": false
+            },
+            {
+              "value": "-08:00 PST PST",
+              "text": "Asia/Manila",
+              "selected": false
+            },
+            {
+              "value": "+05:00 EST EDT",
+              "text": "US/Eastern",
+              "selected": false
+            },
+            {
+              "value": "+06:00 CST CDT",
+              "text": "US/Central",
+              "selected": false
+            },
+            {
+              "value": "+07:00 MST MDT",
+              "text": "US/Mountain",
+              "selected": true
+            },
+            {
+              "value": "+08:00 PST PDT",
+              "text": "US/Pacific",
+              "selected": false
+            },
+            {
+              "value": "+09:00 AKST AKDT",
+              "text": "US/Alaska",
+              "selected": false
+            },
+            {
+              "value": "+10:00 HST HDT",
+              "text": "US/Hawaii",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "offset",
+          "id": "offset",
+          "value": "+07:00",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "std_name",
+          "id": "std_name",
+          "value": "MST",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "dst_name",
+          "id": "dst_name",
+          "value": "MDT",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": "Cancel",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_save_1",
+          "value": "Save",
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dst_rule",
+          "id": "dst_rule",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "CUSTOM",
+              "text": "CUSTOM",
+              "selected": false
+            },
+            {
+              "value": "NONE",
+              "text": "OFF",
+              "selected": false
+            },
+            {
+              "value": "EUROPE_W M3.5.0/1:00 M10.5.0/2:00",
+              "text": "WESTERN EUROPE",
+              "selected": false
+            },
+            {
+              "value": "EUROPE_C M3.5.0/2:00 M10.5.0/3:00",
+              "text": "CENTRAL EUROPE",
+              "selected": false
+            },
+            {
+              "value": "EUROPE_E M3.5.0/3:00 M10.5.0/4:00",
+              "text": "EASTERN EUROPE",
+              "selected": false
+            },
+            {
+              "value": "US M3.2.0/2:00 M11.1.0/2:00",
+              "text": "USA",
+              "selected": true
+            },
+            {
+              "value": "BRAZIL M10.3.0/0:00 M2.3.0/0:00",
+              "text": "BRAZIL",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dst_begin_w",
+          "id": "dst_begin_w",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control short_select",
+          "options": [
+            {
+              "value": "1",
+              "text": "1st",
+              "selected": false
+            },
+            {
+              "value": "2",
+              "text": "2nd",
+              "selected": true
+            },
+            {
+              "value": "3",
+              "text": "3th",
+              "selected": false
+            },
+            {
+              "value": "4",
+              "text": "4th",
+              "selected": false
+            },
+            {
+              "value": "5",
+              "text": "Last",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dst_begin_d",
+          "id": "dst_begin_d",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control short_select",
+          "options": [
+            {
+              "value": "0",
+              "text": "Sun",
+              "selected": true
+            },
+            {
+              "value": "1",
+              "text": "Mon",
+              "selected": false
+            },
+            {
+              "value": "2",
+              "text": "Tue",
+              "selected": false
+            },
+            {
+              "value": "3",
+              "text": "Wed",
+              "selected": false
+            },
+            {
+              "value": "4",
+              "text": "Thu",
+              "selected": false
+            },
+            {
+              "value": "5",
+              "text": "Fri",
+              "selected": false
+            },
+            {
+              "value": "6",
+              "text": "Sat",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dst_begin_m",
+          "id": "dst_begin_m",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control short_select",
+          "options": [
+            {
+              "value": "1",
+              "text": "Jan",
+              "selected": false
+            },
+            {
+              "value": "2",
+              "text": "Feb",
+              "selected": false
+            },
+            {
+              "value": "3",
+              "text": "Mar",
+              "selected": true
+            },
+            {
+              "value": "4",
+              "text": "Apr",
+              "selected": false
+            },
+            {
+              "value": "5",
+              "text": "May",
+              "selected": false
+            },
+            {
+              "value": "6",
+              "text": "Jun",
+              "selected": false
+            },
+            {
+              "value": "7",
+              "text": "Jul",
+              "selected": false
+            },
+            {
+              "value": "8",
+              "text": "Aug",
+              "selected": false
+            },
+            {
+              "value": "9",
+              "text": "Sep",
+              "selected": false
+            },
+            {
+              "value": "10",
+              "text": "Oct",
+              "selected": false
+            },
+            {
+              "value": "11",
+              "text": "Nov",
+              "selected": false
+            },
+            {
+              "value": "12",
+              "text": "Dec",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "dst_begin_t",
+          "id": "dst_begin_t",
+          "value": "2:00",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control short_texts"
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dst_end_w",
+          "id": "dst_end_w",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control short_select",
+          "options": [
+            {
+              "value": "1",
+              "text": "1st",
+              "selected": true
+            },
+            {
+              "value": "2",
+              "text": "2nd",
+              "selected": false
+            },
+            {
+              "value": "3",
+              "text": "3th",
+              "selected": false
+            },
+            {
+              "value": "4",
+              "text": "4th",
+              "selected": false
+            },
+            {
+              "value": "5",
+              "text": "Last",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dst_end_d",
+          "id": "dst_end_d",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control short_select",
+          "options": [
+            {
+              "value": "0",
+              "text": "Sun",
+              "selected": true
+            },
+            {
+              "value": "1",
+              "text": "Mon",
+              "selected": false
+            },
+            {
+              "value": "2",
+              "text": "Tue",
+              "selected": false
+            },
+            {
+              "value": "3",
+              "text": "Wed",
+              "selected": false
+            },
+            {
+              "value": "4",
+              "text": "Thu",
+              "selected": false
+            },
+            {
+              "value": "5",
+              "text": "Fri",
+              "selected": false
+            },
+            {
+              "value": "6",
+              "text": "Sat",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "dst_end_m",
+          "id": "dst_end_m",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control short_select",
+          "options": [
+            {
+              "value": "1",
+              "text": "Jan",
+              "selected": false
+            },
+            {
+              "value": "2",
+              "text": "Feb",
+              "selected": false
+            },
+            {
+              "value": "3",
+              "text": "Mar",
+              "selected": false
+            },
+            {
+              "value": "4",
+              "text": "Apr",
+              "selected": false
+            },
+            {
+              "value": "5",
+              "text": "May",
+              "selected": false
+            },
+            {
+              "value": "6",
+              "text": "Jun",
+              "selected": false
+            },
+            {
+              "value": "7",
+              "text": "Jul",
+              "selected": false
+            },
+            {
+              "value": "8",
+              "text": "Aug",
+              "selected": false
+            },
+            {
+              "value": "9",
+              "text": "Sep",
+              "selected": false
+            },
+            {
+              "value": "10",
+              "text": "Oct",
+              "selected": false
+            },
+            {
+              "value": "11",
+              "text": "Nov",
+              "selected": true
+            },
+            {
+              "value": "12",
+              "text": "Dec",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "dst_end_t",
+          "id": "dst_end_t",
+          "value": "2:00",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": true,
+          "class": "form-control short_texts"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": "Cancel",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_save_2",
+          "value": "Save",
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "timestamp": "2025-11-26T19:16:14.552886",
+  "forms": [
+    {
+      "index": 0,
+      "action": "syslog",
+      "method": "post",
+      "fields": [
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "level",
+          "id": "level",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "ERROR",
+              "text": "ERROR",
+              "selected": false
+            },
+            {
+              "value": "WARNING",
+              "text": "WARNING",
+              "selected": false
+            },
+            {
+              "value": "NOTICE",
+              "text": "NOTICE",
+              "selected": false
+            },
+            {
+              "value": "INFO",
+              "text": "INFO",
+              "selected": true
+            },
+            {
+              "value": "DEBUG",
+              "text": "DEBUG",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "target_a",
+          "id": "target_a",
+          "value": "192.168.10.50",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "port_a",
+          "id": "port_a",
+          "value": "514",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "protocol_a",
+          "id": "protocol_a",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "TCP",
+              "text": "TCP",
+              "selected": false
+            },
+            {
+              "value": "UDP",
+              "text": "UDP",
+              "selected": true
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "target_b",
+          "id": "target_b",
+          "value": "",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "port_b",
+          "id": "port_b",
+          "value": "514",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control"
+        },
+        {
+          "tag": "SELECT",
+          "type": null,
+          "name": "protocol_b",
+          "id": "protocol_b",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "form-control",
+          "options": [
+            {
+              "value": "TCP",
+              "text": "TCP",
+              "selected": true
+            },
+            {
+              "value": "UDP",
+              "text": "UDP",
+              "selected": false
+            }
+          ]
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_cancel",
+          "value": "Cancel",
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-default"
+        },
+        {
+          "tag": "INPUT",
+          "type": "button",
+          "name": null,
+          "id": "button_save",
+          "value": "Save",
+          "placeholder": null,
+          "disabled": true,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "action": "/Users/Delete",
+      "method": "POST",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": null,
+          "id": "modal-user-session-expire-reload",
+          "value": null,
+          "placeholder": null,
+          "disabled": false,
+          "readonly": false,
+          "required": false,
+          "class": "btn btn-primary btn-block"
+        }
+      ]
+    }
+  ]
+}

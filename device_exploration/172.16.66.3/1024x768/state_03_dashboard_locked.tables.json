@@ -1,0 +1,263 @@
+[
+  {
+    "index": 0,
+    "headers": [],
+    "rows": [
+      [
+        "UTC",
+        "2025-11-27 00:13:19"
+      ],
+      [
+        "MST",
+        "2025-11-26 17:13:19 -07:00"
+      ]
+    ]
+  },
+  {
+    "index": 1,
+    "headers": [],
+    "rows": [
+      [
+        "GNSS state",
+        "LOCKED"
+      ],
+      [
+        "Antenna state",
+        "Ok"
+      ],
+      [
+        "Time accuracy",
+        "4 ns"
+      ],
+      [
+        "Used / tracked SVs",
+        "25 / 28"
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "headers": [],
+    "rows": [
+      [
+        "Identifier",
+        ""
+      ],
+      [
+        "Location",
+        ""
+      ],
+      [
+        "Contact",
+        ""
+      ],
+      [
+        "Model number",
+        "KRONOS-3R-HVLV-TCXO-A2F"
+      ],
+      [
+        "Serial number",
+        "30165"
+      ],
+      [
+        "Firmware version",
+        "02.06.04"
+      ],
+      [
+        "IPv4 address eth0",
+        "172.16.66.3"
+      ],
+      [
+        "MAC address eth0",
+        "00:90:9D:E2:93:30"
+      ],
+      [
+        "Up Time",
+        "0004.01:35:59"
+      ],
+      [
+        "SNMP MIB file",
+        "kronos3.mib"
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "headers": [
+      "Id",
+      "C/No",
+      "Constellation",
+      "State"
+    ],
+    "rows": [
+      [
+        "1",
+        "45",
+        "GPS",
+        "in use"
+      ],
+      [
+        "2",
+        "38",
+        "GPS",
+        "in use"
+      ],
+      [
+        "6",
+        "26",
+        "GPS",
+        "in use"
+      ],
+      [
+        "7",
+        "34",
+        "GPS",
+        "in use"
+      ],
+      [
+        "13",
+        "27",
+        "GPS",
+        "in use"
+      ],
+      [
+        "14",
+        "45",
+        "GPS",
+        "in use"
+      ],
+      [
+        "15",
+        "24",
+        "GPS",
+        "in use"
+      ],
+      [
+        "17",
+        "39",
+        "GPS",
+        "in use"
+      ],
+      [
+        "19",
+        "40",
+        "GPS",
+        "in use"
+      ],
+      [
+        "22",
+        "47",
+        "GPS",
+        "in use"
+      ],
+      [
+        "24",
+        "27",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "30",
+        "43",
+        "GPS",
+        "in use"
+      ],
+      [
+        "215",
+        "29",
+        "Galileo",
+        "in use"
+      ],
+      [
+        "219",
+        "23",
+        "Galileo",
+        "in use"
+      ],
+      [
+        "222",
+        "36",
+        "Galileo",
+        "in use"
+      ],
+      [
+        "226",
+        "39",
+        "Galileo",
+        "in use"
+      ],
+      [
+        "233",
+        "12",
+        "Galileo",
+        "tracked"
+      ],
+      [
+        "236",
+        "14",
+        "Galileo",
+        "tracked"
+      ],
+      [
+        "241",
+        "45",
+        "Galileo",
+        "in use"
+      ],
+      [
+        "243",
+        "42",
+        "Galileo",
+        "in use"
+      ],
+      [
+        "69",
+        "19",
+        "GLONASS",
+        "in use"
+      ],
+      [
+        "76",
+        "17",
+        "GLONASS",
+        "in use"
+      ],
+      [
+        "77",
+        "41",
+        "GLONASS",
+        "in use"
+      ],
+      [
+        "78",
+        "38",
+        "GLONASS",
+        "in use"
+      ],
+      [
+        "79",
+        "35",
+        "GLONASS",
+        "in use"
+      ],
+      [
+        "81",
+        "33",
+        "GLONASS",
+        "in use"
+      ],
+      [
+        "87",
+        "39",
+        "GLONASS",
+        "in use"
+      ],
+      [
+        "88",
+        "41",
+        "GLONASS",
+        "in use"
+      ]
+    ]
+  }
+]

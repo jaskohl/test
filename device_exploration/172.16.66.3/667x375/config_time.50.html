@@ -1,0 +1,396 @@
+<!DOCTYPE html><html lang="en" class="light-color-theme"><head>
+    <meta charset="utf-8">
+    <title>Kronos Series 3</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preload" as="image" type="image/svg+xml" href="Kronos_Diamond.svg">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="loading_mask.js"></script>
+    <script>
+        
+            localStorage.setItem('is_cfg_session', 1);
+        
+    </script>
+</head>
+<body class="skin-blue sidebar-mini">
+    
+    <div class="wrapper">
+        <header id="Main_Header" class="main-header">
+            
+                <a href="#" class="sidebar-toggle hidden" data-toggle="push-menu" role="button" style="color: #666666; padding: 15px 18px;">
+                    <i class="glyphicon glyphicon-menu-hamburger"></i>
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <a href="/" class="logo text-left">
+                    <span class="logo-mini"><img src="Kronos_Diamond.svg" title="kronos3 Satellite Clock" class="none" width="26"></span>
+                    <span class="logo-lg"><img src="Kronos_Diamond.svg" title="kronos3 Satellite Clock" class="none" width="26"> Kronos Series 3</span>
+                </a>
+            
+            <nav class="navbar navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        
+                        <a href="/" class="navbar-brand mobile-only">
+                            <img src="Kronos_Diamond.svg" title="NovaTech" class="none" width="26">
+                            <span>Kronos Series 3</span>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="glyphicon glyphicon-menu-hamburger"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav mobile-only">
+                            
+                                <li>
+                                    <a href="/">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="general">General</a>
+                                </li>
+                                <li>
+                                    <a href="time">Time</a>
+                                </li>
+                                <li>
+                                    <a href="display">Display</a>
+                                </li>
+                                <li>
+                                    <a href="outputs">Outputs</a>
+                                </li>
+                                <li>
+                                    <a href="network">Network</a>
+                                </li>
+                                <li>
+                                    <a href="ptp">PTP</a>
+                                </li>
+                                <li>
+                                    <a href="snmp">SNMP</a>
+                                </li>
+                                <li>
+                                    <a href="gnss">GNSS</a>
+                                </li>
+                                <li>
+                                    <a href="syslog">Syslog</a>
+                                </li>
+                                <li>
+                                    <a href="upload">Upload</a>
+                                </li>
+                                <li>
+                                    <a href="access">Access</a>
+                                </li>
+                                <li>
+                                    <a href="log">Log Files</a>
+                                </li>
+                                <li>
+                                    <a href="legal">Legal Info</a>
+                                </li>
+                                <li>
+                                    <a href="contact">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="logout" title="Log out">Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-adjust"></span>
+                                </a>
+                                <ul class="dropdown-menu" style="z-index: 9999">
+                                    <li class="change-color-theme" data-color-theme="light-color-theme">
+                                        <span class=""></span><span> Light</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="dark-color-theme">
+                                        <span class=""></span><span> Dark</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="automatic">
+                                        <span class="glyphicon glyphicon-ok"></span><span> Automatic</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            
+                                <li class="non-mobile-only">
+                                    <a href="logout" title="Log out"><span class="glyphicon glyphicon-log-out"></span> Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <ul class="sidebar-menu push-menu-toggle" data-widget="tree">
+                        <li id="Open_Close_Sidebar"><a href="#" class="sidebar-toggle text-right" data-toggle="push-menu"><i class="glyphicon glyphicon-menu-hamburger text-left"></i></a></li>
+                    </ul>
+                    <ul class="sidebar-menu" data-widget="tree">
+                        <li class=""><a href="/" class="text-right"><span class="pull-left">Dashboard</span> <i class="glyphicon glyphicon-dashboard text-left"></i></a></li>
+                        <li class=""><a href="general" class="text-right"><span class="pull-left">General</span> <i class="glyphicon glyphicon-list-alt text-left"></i></a></li>
+                        <li class="active"><a href="time" class="text-right"><span class="pull-left">Time</span> <i class="glyphicon glyphicon-time text-left"></i></a></li>
+                        <li class=""><a href="display" class="text-right"><span class="pull-left">Display</span> <i class="glyphicon glyphicon-picture text-left"></i></a></li>
+                        <li class=""><a href="outputs" class="text-right"><span class="pull-left">Outputs</span> <i class="glyphicon glyphicon-share text-left"></i></a></li>
+                        <li class=""><a href="network" class="text-right"><span class="pull-left">Network</span> <i class="glyphicon glyphicon-globe text-left"></i></a></li>
+                        <li class=""><a href="ptp" class="text-right"><span class="pull-left">PTP</span> <i class="glyphicon glyphicon-resize-horizontal text-left"></i></a></li>
+                        <li class=""><a href="snmp" class="text-right"><span class="pull-left">SNMP</span> <i class="glyphicon glyphicon-object-align-vertical text-left"></i></a></li>
+                        <li class=""><a href="gnss" class="text-right"><span class="pull-left">GNSS</span> <i class="glyphicon glyphicon-star-empty text-left"></i></a></li>
+                        <li class=""><a href="syslog" class="text-right"><span class="pull-left">Syslog</span> <i class="glyphicon glyphicon-align-left text-left"></i></a></li>
+                        <li class=""><a href="upload" class="text-right"><span class="pull-left">Upload</span> <i class="glyphicon glyphicon-upload text-left"></i></a></li>
+                        <li class=""><a href="access" class="text-right"><span class="pull-left">Access</span> <i class="glyphicon glyphicon-user text-left"></i></a></li>
+                        <li class=""><a href="log" class="text-right"><span class="pull-left">Log Files (zip)</span> <i class="glyphicon glyphicon-download-alt text-left"></i></a></li>
+                        <li class=""><a href="legal" class="text-right"><span class="pull-left">Legal Info (pdf)</span> <i class="glyphicon glyphicon-info-sign text-left"></i></a></li>
+                        <li class=""><a href="contact" class="text-right"><span class="pull-left">Contact</span> <i class="glyphicon glyphicon-envelope text-left"></i></a></li>
+                    </ul>
+                </section>
+            </aside>
+        
+        <div class="content-wrapper">
+            <div class="container">
+<div class="row">
+  
+  <section class="content-header clearfix">
+    <ol class="breadcrumb">
+        <li><a href="/"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</a></li>
+        <li><i class="glyphicon glyphicon-time"></i> Time</li>
+    </ol>
+  </section>
+  <section class="content">
+    <form action="time" method="POST">
+      <div class="box">
+        <div class="box-header with-border">
+          <h3 class="box-title">Time Zone</h3>
+        </div>
+        <div class="box-body">
+          <div class="form-group">
+            <label class="labels" for="timezones">Timezone: </label> <select class="form-control" id="timezones" name="timezones" onchange="zoneChanged(this.value)"><option value="">-- select --</option><option value="+00:00 UTC UTC">UTC</option><option value="+03:00 BRT BRST">America/Sao Paulo</option><option value="+04:00 CLT CLST">America/Santiago</option><option value="+05:00 ECT ECT">America/Quito</option><option value="+06:00 CST CST">America/Guatemala City</option><option value="+00:00 WET WEST">Europe/Western Europe</option><option value="-01:00 CET CEST">Europe/Central Europe</option><option value="-02:00 EET EEST">Europe/Eastern Europe</option><option value="-07:00 ICT ICT">Asia/Bangkok</option><option value="-08:00 PST PST">Asia/Manila</option><option value="+05:00 EST EDT">US/Eastern</option><option value="+06:00 CST CDT">US/Central</option><option selected="" value="+07:00 MST MDT">US/Mountain</option><option value="+08:00 PST PDT">US/Pacific</option><option value="+09:00 AKST AKDT">US/Alaska</option><option value="+10:00 HST HDT">US/Hawaii</option></select>
+            
+          </div>
+          <div class="form-group">
+            <label class="labels" for="offset">Offset:   </label> <input class="form-control" id="offset" maxlength="6" minlength="5" name="offset" onchange="changed('button_save_1')" required="" type="text" value="+07:00" style="">
+            
+          </div>
+          <div class="form-group">
+            <label class="labels" for="std_name">STD timezone: </label> <input class="form-control" id="std_name" maxlength="4" minlength="3" name="std_name" onchange="changed('button_save_1')" required="" type="text" value="MST" style="">
+            
+          </div>
+          <div class="form-group">
+            <label class="labels" for="dst_name">DST timezone: </label> <input class="form-control" id="dst_name" maxlength="4" minlength="3" name="dst_name" onchange="changed('button_save_1')" required="" type="text" value="MDT" style="">
+            
+          </div>
+        </div>
+        <div class="box-footer text-right">
+          <input type="button" id="button_cancel" class="btn btn-default" value="Cancel" onclick="my_cancel()" style="">
+          <input type="button" id="button_save_1" class="btn btn-primary" value="Save" disabled="true" onclick="my_submit(this.form)" style="">
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-header with-border">
+          <h3 class="box-title">DST</h3>
+        </div>
+        <div class="box-body">
+          <div class="form-group">
+            <label class="labels" for="dst_rule">Daylight Saving Time: </label> <select class="form-control" id="dst_rule" name="dst_rule" onchange="dst_changed(this.value)"><option value="CUSTOM">CUSTOM</option><option value="NONE">OFF</option><option value="EUROPE_W M3.5.0/1:00 M10.5.0/2:00">WESTERN EUROPE</option><option value="EUROPE_C M3.5.0/2:00 M10.5.0/3:00">CENTRAL EUROPE</option><option value="EUROPE_E M3.5.0/3:00 M10.5.0/4:00">EASTERN EUROPE</option><option selected="" value="US M3.2.0/2:00 M11.1.0/2:00">USA</option><option value="BRAZIL M10.3.0/0:00 M2.3.0/0:00">BRAZIL</option></select>
+            
+          </div>
+          <div id="dst_begin_wrapper" class="form-group" style="height: inherit;">
+            <label class="labels_right" for="dst_begin_w" id="dst_begin_w_label" style="visibility: visible;">Begin:</label>
+            <select class="form-control short_select" id="dst_begin_w" name="dst_begin_w" onchange="changed('button_save_2')" style="visibility: visible;"><option value="1">1st</option><option selected="" value="2">2nd</option><option value="3">3th</option><option value="4">4th</option><option value="5">Last</option></select>
+            <select class="form-control short_select" id="dst_begin_d" name="dst_begin_d" onchange="changed('button_save_2')" style="visibility: visible;"><option selected="" value="0">Sun</option><option value="1">Mon</option><option value="2">Tue</option><option value="3">Wed</option><option value="4">Thu</option><option value="5">Fri</option><option value="6">Sat</option></select>
+            <label class="mini_labels" for="dst_begin_m" id="dst_begin_m_label" style="visibility: visible;">in</label>
+            <select class="form-control short_select" id="dst_begin_m" name="dst_begin_m" onchange="changed('button_save_2')" style="visibility: visible;"><option value="1">Jan</option><option value="2">Feb</option><option selected="" value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">Sep</option><option value="10">Oct</option><option value="11">Nov</option><option value="12">Dec</option></select>
+            <label class="mini_labels" for="dst_begin_t" id="dst_begin_t_label" style="visibility: visible;">at</label>
+            <input class="form-control short_texts" id="dst_begin_t" maxlength="7" minlength="4" name="dst_begin_t" onchange="changed('button_save_2')" required="" type="text" value="2:00" style="visibility: visible;">
+          </div>
+          <div id="dst_end_wrapper" class="form-group dst_hide" style="height: inherit;">
+            <label class="labels_right" for="dst_end_w" id="dst_end_w_label" style="visibility: visible;">End:</label>
+            <select class="form-control short_select" id="dst_end_w" name="dst_end_w" onchange="changed('button_save_2')" style="visibility: visible;"><option selected="" value="1">1st</option><option value="2">2nd</option><option value="3">3th</option><option value="4">4th</option><option value="5">Last</option></select>
+            <select class="form-control short_select" id="dst_end_d" name="dst_end_d" onchange="changed('button_save_2')" style="visibility: visible;"><option selected="" value="0">Sun</option><option value="1">Mon</option><option value="2">Tue</option><option value="3">Wed</option><option value="4">Thu</option><option value="5">Fri</option><option value="6">Sat</option></select>
+            <label class="mini_labels" for="dst_end_m" id="dst_end_m_label" style="visibility: visible;">in</label>
+            <select class="form-control short_select" id="dst_end_m" name="dst_end_m" onchange="changed('button_save_2')" style="visibility: visible;"><option value="1">Jan</option><option value="2">Feb</option><option value="3">Mar</option><option value="4">Apr</option><option value="5">May</option><option value="6">Jun</option><option value="7">Jul</option><option value="8">Aug</option><option value="9">Sep</option><option value="10">Oct</option><option selected="" value="11">Nov</option><option value="12">Dec</option></select>
+            <label class="mini_labels" for="dst_end_t" id="dst_end_t_label" style="visibility: visible;">at</label>
+            <input class="form-control short_texts" id="dst_end_t" maxlength="7" minlength="4" name="dst_end_t" onchange="changed('button_save_2')" required="" type="text" value="2:00" style="visibility: visible;">
+          </div>
+        </div>
+        <div class="box-footer text-right">
+          <input type="button" id="button_cancel" class="btn btn-default" value="Cancel" onclick="my_cancel()" style="">
+          <input type="button" id="button_save_2" class="btn btn-primary" value="Save" disabled="true" onclick="my_submit(this.form)" style="">
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <script type="text/javascript">
+    function zoneChanged(value) {
+      if (value.length > 0) {
+        var zone = value.split(" ")
+        document.getElementById("offset").value = zone[0]
+        document.getElementById("std_name").value = zone[1]
+        document.getElementById("dst_name").value = zone[2]
+        changed('button_save_1')
+      }
+    }
+
+    function mode_DST_show() {
+      document.getElementById("dst_begin_wrapper").style.height = "inherit"
+      document.getElementById("dst_end_wrapper").style.height = "inherit"
+      document.getElementById("dst_begin_w").style.visibility="visible"
+      document.getElementById("dst_begin_w_label").style.visibility="visible"
+      document.getElementById("dst_begin_d").style.visibility="visible"
+      document.getElementById("dst_begin_m").style.visibility="visible"
+      document.getElementById("dst_begin_m_label").style.visibility="visible"
+      document.getElementById("dst_begin_t").style.visibility="visible"
+      document.getElementById("dst_begin_t_label").style.visibility="visible"
+
+      document.getElementById("dst_end_w").style.visibility="visible"
+      document.getElementById("dst_end_w_label").style.visibility="visible"
+      document.getElementById("dst_end_d").style.visibility="visible"
+      document.getElementById("dst_end_m").style.visibility="visible"
+      document.getElementById("dst_end_m_label").style.visibility="visible"
+      document.getElementById("dst_end_t").style.visibility="visible"
+      document.getElementById("dst_end_t_label").style.visibility="visible"
+
+      document.getElementById("dst_rule").disabled=false;
+      document.getElementById("dst_begin_w").disabled=false;
+      document.getElementById("dst_begin_d").disabled=false;
+      document.getElementById("dst_begin_m").disabled=false;
+      document.getElementById("dst_begin_t").disabled=false;
+
+      document.getElementById("dst_end_w").disabled=false;
+      document.getElementById("dst_end_d").disabled=false;
+      document.getElementById("dst_end_m").disabled=false;
+      document.getElementById("dst_end_t").disabled=false;
+    }
+
+    function mode_DST_hide() {
+      document.getElementById("dst_rule").disabled=false;
+      document.getElementById("dst_begin_wrapper").style.height = "1px"
+      document.getElementById("dst_end_wrapper").style.height = "1px"
+
+      document.getElementById("dst_begin_w").style.visibility="hidden"
+      document.getElementById("dst_begin_w_label").style.visibility="hidden"
+      document.getElementById("dst_begin_d").style.visibility="hidden"
+      document.getElementById("dst_begin_m").style.visibility="hidden"
+      document.getElementById("dst_begin_m_label").style.visibility="hidden"
+      document.getElementById("dst_begin_t").style.visibility="hidden"
+      document.getElementById("dst_begin_t_label").style.visibility="hidden"
+
+      document.getElementById("dst_end_w").style.visibility="hidden"
+      document.getElementById("dst_end_w_label").style.visibility="hidden"
+      document.getElementById("dst_end_d").style.visibility="hidden"
+      document.getElementById("dst_end_m").style.visibility="hidden"
+      document.getElementById("dst_end_m_label").style.visibility="hidden"
+      document.getElementById("dst_end_t").style.visibility="hidden"
+      document.getElementById("dst_end_t_label").style.visibility="hidden"
+    }
+
+    function fill_data(value) {
+      var x = value.split(" ")
+
+      var rule = x[0]
+      var begin_full= x[1]
+      var end_full = x[2]
+
+      var begin = begin_full.split("/")
+
+      var begin_data_full = begin[0]
+      var begin_t = begin[1]
+
+      var begin_data = begin_data_full.split(".")
+
+      var begin_m_full = begin_data[0]
+      var begin_m = begin_m_full.substring(1)
+
+      var begin_w = begin_data[1]
+      var begin_d= begin_data[2]
+
+      var end = end_full.split("/")
+
+      var end_data_full = end[0]
+      var end_t = end[1]
+
+      var end_data = end_data_full.split(".")
+
+      var end_m_full = end_data[0]
+      var end_m = end_m_full.substring(1)
+
+      var end_w = end_data[1]
+      var end_d = end_data[2]
+
+      document.getElementById("dst_rule").value = value
+      document.getElementById("dst_begin_w").value = begin_w
+      document.getElementById("dst_begin_d").value = begin_d
+      document.getElementById("dst_begin_m").value = begin_m
+      document.getElementById("dst_begin_t").value = begin_t
+
+      document.getElementById("dst_end_w").value = end_w
+      document.getElementById("dst_end_d").value = end_d
+      document.getElementById("dst_end_m").value = end_m
+      document.getElementById("dst_end_t").value = end_t
+    }
+
+    function dst_changed(value) {
+      if (value == "NONE")
+        mode_DST_hide()
+      else if (value != "CUSTOM") {
+        fill_data(value)
+        mode_DST_show()
+      } else
+        mode_DST_show()
+
+      changed('button_save_2')
+    }
+  </script>
+  
+    <script type="text/javascript">
+      onloadend = mode_DST_show()
+    </script>
+  
+
+</div>
+            </div>
+        </div>
+        <script>
+            function scrollToTop() {
+                const topEl = document.getElementById('Main_Header');
+                topEl.scrollIntoView();
+            }
+        </script>
+        <footer class="main-footer inherit">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <span class="copyright">Copyright © 2022-2025 NovaTech LLC. All rights reserved.</span>
+                    <div class="pull-right hidden-xs">
+                        <b><a href="#" onclick="scrollToTop()"><span class="glyphicon glyphicon-chevron-up"></span> Top</a></b>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="modal-user-session-expire" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <p class="text-center text-bold">Your user session has expired. Please reload the page.</p>
+                </div>
+                <div class="modal-footer">
+                    <form action="/Users/Delete" method="POST">
+                        <button type="button" id="modal-user-session-expire-reload" class="btn btn-primary btn-block" onclick="window.location.reload()">Reload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script text="text/javascript" src="bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+</body></html>

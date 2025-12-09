@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "description": "Satellite loading patterns specific to Kronos2-66-1 (172.16.66.1)",
+    "source": "Device exploration of Kronos2-66-1",
+    "device_info": {
+      "ip": "172.16.66.1",
+      "name": "Kronos2-66-1",
+      "series": "kronos2",
+      "exploration_date": "2025-11-26T17:05:45.012844"
+    },
+    "last_updated": "2025-11-26T17:05:45.012844"
+  },
+  "device_specific_loading_cycles": {
+    "observed_patterns": {
+      "dual_cycle_confirmed": true,
+      "first_cycle_trigger": "Status monitoring login",
+      "second_cycle_trigger": "Configuration unlock",
+      "typical_durations": {
+        "first_cycle": "5-15 seconds",
+        "second_cycle": "5-15 seconds",
+        "total_dual_cycle": "10-30 seconds"
+      }
+    },
+    "device_characteristics": {
+      "satellite_availability_impact": "Variable timing based on satellite lock status",
+      "network_latency_impact": "Embedded device timing variations",
+      "performance_baseline": "8-12 seconds per cycle"
+    }
+  },
+  "loading_detection_methods": [
+    {
+      "method": "Text-based detection",
+      "pattern": "Loading satellite data",
+      "reliability": "High",
+      "locator": "page.get_by_text('Loading satellite data', exact=False)"
+    },
+    {
+      "method": "JavaScript evaluation",
+      "pattern": "document.body.textContent.includes('Loading satellite data')",
+      "reliability": "Medium",
+      "fallback": true
+    }
+  ],
+  "observed_timing_data": {
+    "status_login_loading": {
+      "timeout": 30000,
+      "check_interval": 1000,
+      "max_checks": 30,
+      "actual_observations": []
+    },
+    "config_unlock_loading": {
+      "timeout": 20000,
+      "check_interval": 1000,
+      "max_checks": 20,
+      "actual_observations": []
+    }
+  },
+  "error_handling": {
+    "timeout_behavior": "Continue with test (graceful degradation)",
+    "missing_indicator_behavior": "Assume loading completed",
+    "recovery_strategies": [
+      "Extended timeout for embedded device",
+      "Fallback to alternative detection methods",
+      "Graceful degradation when loading fails"
+    ]
+  },
+  "device_specific_notes": [
+    "Loading patterns observed during exploration of Kronos2-66-1",
+    "Timing may vary based on satellite availability and network conditions",
+    "Dual loading cycles confirmed for this device series",
+    "Text-based detection works reliably for this device"
+  ]
+}

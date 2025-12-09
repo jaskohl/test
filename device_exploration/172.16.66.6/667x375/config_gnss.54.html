@@ -1,0 +1,330 @@
+<!DOCTYPE html><html lang="en" class="light-color-theme"><head>
+    <meta charset="utf-8">
+    <title>Kronos Series 3</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preload" as="image" type="image/svg+xml" href="Kronos_Diamond.svg">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="loading_mask.js"></script>
+    <script>
+        
+            localStorage.setItem('is_cfg_session', 1);
+        
+    </script>
+</head>
+<body class="skin-blue sidebar-mini">
+    
+    <div class="wrapper">
+        <header id="Main_Header" class="main-header">
+            
+                <a href="#" class="sidebar-toggle hidden" data-toggle="push-menu" role="button" style="color: #666666; padding: 15px 18px;">
+                    <i class="glyphicon glyphicon-menu-hamburger"></i>
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <a href="/" class="logo text-left">
+                    <span class="logo-mini"><img src="Kronos_Diamond.svg" title="kronos3 Satellite Clock" class="none" width="26"></span>
+                    <span class="logo-lg"><img src="Kronos_Diamond.svg" title="kronos3 Satellite Clock" class="none" width="26"> Kronos Series 3</span>
+                </a>
+            
+            <nav class="navbar navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        
+                        <a href="/" class="navbar-brand mobile-only">
+                            <img src="Kronos_Diamond.svg" title="NovaTech" class="none" width="26">
+                            <span>Kronos Series 3</span>
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="glyphicon glyphicon-menu-hamburger"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav mobile-only">
+                            
+                                <li>
+                                    <a href="/">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="general">General</a>
+                                </li>
+                                <li>
+                                    <a href="time">Time</a>
+                                </li>
+                                <li>
+                                    <a href="display">Display</a>
+                                </li>
+                                <li>
+                                    <a href="outputs">Outputs</a>
+                                </li>
+                                <li>
+                                    <a href="network">Network</a>
+                                </li>
+                                <li>
+                                    <a href="ptp">PTP</a>
+                                </li>
+                                <li>
+                                    <a href="snmp">SNMP</a>
+                                </li>
+                                <li>
+                                    <a href="gnss">GNSS</a>
+                                </li>
+                                <li>
+                                    <a href="syslog">Syslog</a>
+                                </li>
+                                <li>
+                                    <a href="upload">Upload</a>
+                                </li>
+                                <li>
+                                    <a href="access">Access</a>
+                                </li>
+                                <li>
+                                    <a href="log">Log Files</a>
+                                </li>
+                                <li>
+                                    <a href="legal">Legal Info</a>
+                                </li>
+                                <li>
+                                    <a href="contact">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="logout" title="Log out">Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-adjust"></span>
+                                </a>
+                                <ul class="dropdown-menu" style="z-index: 9999">
+                                    <li class="change-color-theme" data-color-theme="light-color-theme">
+                                        <span class=""></span><span> Light</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="dark-color-theme">
+                                        <span class=""></span><span> Dark</span>
+                                    </li>
+                                    <li class="change-color-theme" data-color-theme="automatic">
+                                        <span class="glyphicon glyphicon-ok"></span><span> Automatic</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                            
+                                <li class="non-mobile-only">
+                                    <a href="logout" title="Log out"><span class="glyphicon glyphicon-log-out"></span> Log out</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <ul class="sidebar-menu push-menu-toggle" data-widget="tree">
+                        <li id="Open_Close_Sidebar"><a href="#" class="sidebar-toggle text-right" data-toggle="push-menu"><i class="glyphicon glyphicon-menu-hamburger text-left"></i></a></li>
+                    </ul>
+                    <ul class="sidebar-menu" data-widget="tree">
+                        <li class=""><a href="/" class="text-right"><span class="pull-left">Dashboard</span> <i class="glyphicon glyphicon-dashboard text-left"></i></a></li>
+                        <li class=""><a href="general" class="text-right"><span class="pull-left">General</span> <i class="glyphicon glyphicon-list-alt text-left"></i></a></li>
+                        <li class=""><a href="time" class="text-right"><span class="pull-left">Time</span> <i class="glyphicon glyphicon-time text-left"></i></a></li>
+                        <li class=""><a href="display" class="text-right"><span class="pull-left">Display</span> <i class="glyphicon glyphicon-picture text-left"></i></a></li>
+                        <li class=""><a href="outputs" class="text-right"><span class="pull-left">Outputs</span> <i class="glyphicon glyphicon-share text-left"></i></a></li>
+                        <li class=""><a href="network" class="text-right"><span class="pull-left">Network</span> <i class="glyphicon glyphicon-globe text-left"></i></a></li>
+                        <li class=""><a href="ptp" class="text-right"><span class="pull-left">PTP</span> <i class="glyphicon glyphicon-resize-horizontal text-left"></i></a></li>
+                        <li class=""><a href="snmp" class="text-right"><span class="pull-left">SNMP</span> <i class="glyphicon glyphicon-object-align-vertical text-left"></i></a></li>
+                        <li class="active"><a href="gnss" class="text-right"><span class="pull-left">GNSS</span> <i class="glyphicon glyphicon-star-empty text-left"></i></a></li>
+                        <li class=""><a href="syslog" class="text-right"><span class="pull-left">Syslog</span> <i class="glyphicon glyphicon-align-left text-left"></i></a></li>
+                        <li class=""><a href="upload" class="text-right"><span class="pull-left">Upload</span> <i class="glyphicon glyphicon-upload text-left"></i></a></li>
+                        <li class=""><a href="access" class="text-right"><span class="pull-left">Access</span> <i class="glyphicon glyphicon-user text-left"></i></a></li>
+                        <li class=""><a href="log" class="text-right"><span class="pull-left">Log Files (zip)</span> <i class="glyphicon glyphicon-download-alt text-left"></i></a></li>
+                        <li class=""><a href="legal" class="text-right"><span class="pull-left">Legal Info (pdf)</span> <i class="glyphicon glyphicon-info-sign text-left"></i></a></li>
+                        <li class=""><a href="contact" class="text-right"><span class="pull-left">Contact</span> <i class="glyphicon glyphicon-envelope text-left"></i></a></li>
+                    </ul>
+                </section>
+            </aside>
+        
+        <div class="content-wrapper">
+            <div class="container">
+<div class="row">
+  
+<section class="content-header clearfix">
+  <ol class="breadcrumb">
+      <li><a href="/"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</a></li>
+      <li><i class="glyphicon glyphicon-list-alt"></i> GNSS</li>
+  </ol>
+</section>
+<section class="content">
+  <div class="box">
+    <div class="box-header with-border">
+        <h3 class="box-title">GNSS</h3>
+    </div>
+    <form action="gnss" method="POST">
+        
+        <div class="box-body">
+            <div class="alert alert-warning alert-warning-soft alert-left-border">
+              <p>Enabling or Disabling a constellation will cause an automatic restart of Kronos.</p>
+            </div>
+            <div class="alert alert-info alert-info-soft alert-left-border">
+              <p>Select which constellations to use. Either GLONASS or BeiDou can be selected, not both.</p>
+            </div>
+            <div class="form-group">
+              <label>
+                <input type="checkbox" name="GPS" value="1" checked="" disabled="" style=""> GPS
+              </label>
+            </div>
+            <div class="form-group">
+              
+                <input class="" id="galileo" name="galileo" onchange="changed('button_save_gnss')" type="checkbox" value="y" style="">
+              
+              <label class="labels" for="galileo">GALILEO</label>
+              
+            </div>
+            <div class="form-group">
+              <input class="gnss" id="glonass" name="glonass" onchange="changed('button_save_gnss')" type="checkbox" value="y" style="">
+              <label class="labels" for="glonass">GLONASS</label>
+              
+            </div>
+            <div class="form-group">
+              <input class="gnss" id="beidou" name="beidou" onchange="changed('button_save_gnss')" type="checkbox" value="y" style="">
+              <label class="labels" for="beidou">BeiDou</label>
+              
+            </div>
+            <hr>
+            <div class="alert alert-warning alert-warning-soft alert-left-border">
+              <p>Changing Antenna Delay will cause an automatic restart of Kronos.</p>
+            </div>
+            <div class="form-group">
+              <label class="labels" for="ant_delay">Antenna Delay</label> (ns)
+              <input class="form-control" id="ant_delay" name="ant_delay" onchange="changed('button_save_gnss')" type="number" value="60" style="">
+              
+            </div>
+            <div class="alert alert-warning alert-warning-soft alert-left-border">
+              <p>Disabling Antenna Simulation will cause an automatic restart of Kronos.</p>
+            </div>
+            <div class="form-group">
+              <input class="" id="force_gnss" name="force_gnss" onchange="changed('button_save_gnss')" type="checkbox" value="y" style="">
+              <label class="labels" for="force_gnss">Antenna Simulation</label>
+              
+            </div>
+            <div class="form-group">
+              <label class="labels" for="force_time">Force Time</label>
+              <input class="form-control" id="force_time" name="force_time" onchange="changed('button_save_gnss')" type="datetime" value="" style="">
+              
+              <div><span class="text-muted">Format YYYY-MM-DD HH:MM:SS</span> - <a id="select_local_datetime" class="cursor-pointer">Select local datetime</a></div>
+            </div>
+        </div>
+        <div class="box-footer text-right">
+          <button type="button" id="button_cancel" class="btn btn-default" onclick="my_cancel()">Cancel</button>
+          <button type="submit" id="button_save_gnss" name="save_gnss" class="btn btn-primary" onclick="my_submit(this.form)" disabled="">Save</button>
+        </div>
+    </form>
+  </div>
+  <div class="box">
+    <div class="box-header with-border">
+        <h3 class="box-title">Out-of-Bounds Limits</h3>
+    </div>
+    <form action="gnss" method="POST">
+        
+        <div class="box-body">
+          <div class="alert alert-info alert-info-soft alert-left-border">
+            <p><strong>Low Quality</strong> and <strong>Bad Time</strong> values are in milliseconds. <strong>Low Quality</strong> valid values are from 0.001 (1 microsecond) to 4000 (4 seconds).</p>
+          </div>
+            <div class="form-group">
+              <label class="labels" for="low_quality">Low Quality</label> (ms)
+              <input class="form-control decimal" id="low_quality" name="low_quality" onchange="changed('button_save_oob_limits')" type="text" value="0.5" style="">
+              
+            </div>
+            <div class="form-group">
+              <label class="labels" for="badtime">Bad Time</label> (ms)
+              <input class="form-control number" id="badtime" name="badtime" onchange="changed('button_save_oob_limits')" type="text" value="1000" style="">
+              
+            </div>
+        </div>
+        <div class="box-footer text-right">
+          <button type="button" id="button_cancel" class="btn btn-default" onclick="my_cancel()">Cancel</button>
+          <button type="submit" id="button_save_oob_limits" name="save_out_of_bounds_limits" class="btn btn-primary" onclick="my_submit(this.form)" disabled="">Save</button>
+        </div>
+    </form>
+  </div>
+</section>
+<script>
+  const groupOneCheck = (className) => {
+    const checkEls = document.querySelectorAll('.gnss');
+    checkEls.forEach((element) => {
+      element.addEventListener('click', (event) => {
+        if (element.checked == true) {
+          for(let ic = 0; ic < checkEls.length; ic++) {
+            if (element != checkEls[ic])
+              checkEls[ic].checked = false;
+          }
+        }
+      });
+    });
+  }
+  groupOneCheck();
+
+  const selectLocalDateTime = () => {
+    const forceTime = document.getElementById('force_time');
+    const dtTime = new Date(new Date().toString().split('GMT')[0]+' UTC').toISOString().split('.')[0].replace('T',' ');
+    forceTime.value = dtTime;
+    return dtTime;
+  }
+
+  $(function() {
+    const selectLocalDateTimeLink = document.getElementById('select_local_datetime');
+    selectLocalDateTimeLink.addEventListener('click', function () {
+      selectLocalDateTime();
+      changed('button_save_gnss');
+    });
+  });
+</script>
+
+</div>
+            </div>
+        </div>
+        <script>
+            function scrollToTop() {
+                const topEl = document.getElementById('Main_Header');
+                topEl.scrollIntoView();
+            }
+        </script>
+        <footer class="main-footer inherit">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <span class="copyright">Copyright © 2022-2025 NovaTech LLC. All rights reserved.</span>
+                    <div class="pull-right hidden-xs">
+                        <b><a href="#" onclick="scrollToTop()"><span class="glyphicon glyphicon-chevron-up"></span> Top</a></b>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="modal-user-session-expire" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <p class="text-center text-bold">Your user session has expired. Please reload the page.</p>
+                </div>
+                <div class="modal-footer">
+                    <form action="/Users/Delete" method="POST">
+                        <button type="button" id="modal-user-session-expire-reload" class="btn btn-primary btn-block" onclick="window.location.reload()">Reload</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script text="text/javascript" src="bootstrap.min.js"></script>
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+
+</body></html>

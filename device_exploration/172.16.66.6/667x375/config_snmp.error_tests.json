@@ -1,0 +1,44 @@
+[
+  {
+    "field": "ro_community1",
+    "test_type": "required_empty",
+    "invalid_value": "",
+    "timestamp": "2025-11-26T19:15:35.918165",
+    "page": "snmp",
+    "error_detected": false,
+    "error_message": null,
+    "error_locator": null,
+    "save_button_disabled": null,
+    "console_errors": [],
+    "screenshot": "memory-bank/device_exploration/172.16.66.6/667x375/error_snmp_ro_community1_required_empty.png",
+    "html": "memory-bank/device_exploration/172.16.66.6/667x375/error_snmp_ro_community1_required_empty.html"
+  },
+  {
+    "field": "ro_community2",
+    "test_type": "required_empty",
+    "invalid_value": "",
+    "timestamp": "2025-11-26T19:15:43.699288",
+    "page": "snmp",
+    "error_detected": false,
+    "error_message": null,
+    "error_locator": null,
+    "save_button_disabled": null,
+    "console_errors": [],
+    "screenshot": "memory-bank/device_exploration/172.16.66.6/667x375/error_snmp_ro_community2_required_empty.png",
+    "html": "memory-bank/device_exploration/172.16.66.6/667x375/error_snmp_ro_community2_required_empty.html"
+  },
+  {
+    "field": "trap_community",
+    "test_type": "exceeds_maxlength",
+    "invalid_value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "timestamp": "2025-11-26T19:15:52.705363",
+    "page": "snmp",
+    "error_detected": false,
+    "error_message": null,
+    "error_locator": null,
+    "save_button_disabled": null,
+    "console_errors": [],
+    "screenshot": "memory-bank/device_exploration/172.16.66.6/667x375/error_snmp_trap_community_exceeds_maxlength.png",
+    "html": "memory-bank/device_exploration/172.16.66.6/667x375/error_snmp_trap_community_exceeds_maxlength.html"
+  }
+]

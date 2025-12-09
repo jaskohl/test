@@ -1,0 +1,141 @@
+[
+  {
+    "index": 0,
+    "headers": [],
+    "rows": [
+      [
+        "UTC",
+        "2024-10-05 01:29:17"
+      ],
+      [
+        "MDT",
+        "2024-10-04 19:29:17 -06:00"
+      ]
+    ]
+  },
+  {
+    "index": 1,
+    "headers": [],
+    "rows": [
+      [
+        "GNSS state",
+        "LOCKED"
+      ],
+      [
+        "Antenna state",
+        "Ok"
+      ],
+      [
+        "Time accuracy",
+        "19 ns"
+      ],
+      [
+        "Used / tracked SVs",
+        "4 / 7"
+      ]
+    ]
+  },
+  {
+    "index": 2,
+    "headers": [],
+    "rows": [
+      [
+        "Identifier",
+        ""
+      ],
+      [
+        "Location",
+        "Lenexa"
+      ],
+      [
+        "Contact",
+        "Novatech Testing"
+      ],
+      [
+        "Model number",
+        "KRONOS-2P-HV-2"
+      ],
+      [
+        "Serial number",
+        "20216"
+      ],
+      [
+        "Firmware version",
+        "04.04.00"
+      ],
+      [
+        "IPv4 address A",
+        "172.16.190.46"
+      ],
+      [
+        "MAC address A",
+        "00:14:2d:f0:25:a4"
+      ],
+      [
+        "Up Time",
+        "0004.01:29:51"
+      ],
+      [
+        "SNMP MIB file",
+        "kronos2.mib"
+      ],
+      [
+        "NTP clients",
+        "10 min 60 min"
+      ]
+    ]
+  },
+  {
+    "index": 3,
+    "headers": [
+      "Id",
+      "C/No",
+      "Constellation",
+      "State"
+    ],
+    "rows": [
+      [
+        "1",
+        "6",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "3",
+        "26",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "5",
+        "38",
+        "GPS",
+        "in use"
+      ],
+      [
+        "7",
+        "33",
+        "GPS",
+        "in use"
+      ],
+      [
+        "9",
+        "13",
+        "GPS",
+        "in use"
+      ],
+      [
+        "11",
+        "7",
+        "GPS",
+        "tracked"
+      ],
+      [
+        "13",
+        "33",
+        "GPS",
+        "in use"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-11-26T17:39:22.312893",
+  "capture_index": 60,
+  "description": "Upload configuration - Initial load",
+  "url": "https://172.16.66.1/upload",
+  "title": "Kronos Series 2",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [],
+    "toast_messages": [
+      "Warning\n\nOnly .fwu (firmware upgrade), .pem (certficates for HTTPS/NTS) or .pub (ssh access) files can be uploaded.\n\nKronos will automatically restart after succesfully uploading a .fwu file."
+    ]
+  }
+}

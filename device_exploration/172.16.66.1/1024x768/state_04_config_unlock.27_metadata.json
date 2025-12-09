@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-11-26T17:23:45.909469",
+  "capture_index": 27,
+  "description": "Loading text appeared",
+  "url": "https://172.16.66.1/index",
+  "title": "Kronos Series 2",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": true,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": "Loading satellite data...",
+    "button_texts": [],
+    "toast_messages": []
+  }
+}

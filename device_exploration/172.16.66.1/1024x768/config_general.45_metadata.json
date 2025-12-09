@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-11-26T17:24:07.223727",
+  "capture_index": 45,
+  "description": "Page content changed",
+  "url": "https://172.16.66.1/general",
+  "title": "Kronos Series 2",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "console_logs": [],
+  "loading_indicators": {
+    "loading_mask": false,
+    "loading_text": false,
+    "modal_visible": false,
+    "session_expired_modal": false
+  },
+  "loading_text": {
+    "loading_mask_text": null,
+    "loading_overlay_text": null,
+    "button_texts": [
+      {
+        "text": "Cancel",
+        "disabled": false
+      },
+      {
+        "text": "Save",
+        "disabled": true
+      }
+    ],
+    "toast_messages": []
+  }
+}
